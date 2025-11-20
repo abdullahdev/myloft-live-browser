@@ -58,8 +58,13 @@ async function startWatcher() {
 
         return { dateTime, distance, location, title };
     });
-
-    const distanceKm = distance ? parseInt(distance.match(/\d+/)?.[0] || '0', 10) : null;
+    if(distance){
+        const distanceKm = distance ? parseInt(distance.match(/\d+/)?.[0] || '0', 10) : null;
+    }
+    let distanceKm = 0;
+    if(distance){
+        distanceKm = distance ? parseInt(distance.match(/\d+/)?.[0] || '0', 10) : null;
+    }
 
     // Convert dateTime to UTC ISO format
     // Format: "13.11.2025 09:10:00 (GMT -6:00)" -> UTC ISO string
