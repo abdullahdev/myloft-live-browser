@@ -1,7 +1,8 @@
 const puppeteer = require('puppeteer');
 const axios = require('axios');
-const baseUrl = 'https://live.myloft.ro';
-// const baseUrl = 'http://127.0.0.1:8000';
+// const baseUrl = 'https://live.myloft.ro';
+const baseUrl = 'http://127.0.0.1:8000';
+let postData = {};
 async function startWatcher() {
     const url = process.argv[2];
     const browser = await puppeteer.launch({
@@ -44,6 +45,7 @@ async function startWatcher() {
                 dateTime = text;
             } else if (icon.classList.contains('fa-route')) {
                 distance = text;
+                console.log('   Distance:', distance);
             } else if (icon.classList.contains('fa-map-marked')) {
                 location = text;
             }
@@ -58,12 +60,20 @@ async function startWatcher() {
 
         return { dateTime, distance, location, title };
     });
-    if(distance){
-        const distanceKm = distance ? parseInt(distance.match(/\d+/)?.[0] || '0', 10) : null;
-    }
+    // if(distance){
+    //     const distanceKm = distance ? parseInt(distance.match(/\d+/)?.[0] || '0', 10) : null;
+    // }
     let distanceKm = 0;
     if(distance){
+        let isMiles = false;
+        if(!distance.includes('km')){
+            //it must be miles so convert to km
+            isMiles = true;
+        }
         distanceKm = distance ? parseInt(distance.match(/\d+/)?.[0] || '0', 10) : null;
+        if(isMiles){
+            distanceKm = distanceKm * 1.60934;
+        }
     }
 
     // Convert dateTime to UTC ISO format
@@ -117,13 +127,14 @@ async function startWatcher() {
         }
     }
 
-    console.log('✅ Extracted data:');
-    console.log('   Title:', title);
-    console.log('   Date/Time (original):', dateTime);
-    console.log('   Date/Time (UTC):', dateTimeUtc);
-    console.log('   Distance:', distanceKm);
-    console.log('   Location:', location);
-    console.log('   URL:', url);
+    // console.log('✅ Extracted data:');
+    // console.log('   Title:', title);
+    // console.log('   Date/Time (original):', dateTime);
+    // console.log('   Date/Time (UTC):', dateTimeUtc);
+    // console.log('   Distance:', distanceKm);
+    // console.log('   Location:',  (location) ? location : '-');
+    // console.log('   URL:', url);
+    // console.log('   Total Birds:', totalBirds);
 
    
 
@@ -136,25 +147,33 @@ async function startWatcher() {
         const valueEl = arrivalsLabel.nextElementSibling?.classList.contains('ParagraphLeft-Gray-100-Bold')
             ? arrivalsLabel.nextElementSibling
             : null;
-
         return valueEl ? valueEl.textContent.trim() : null;
+        
     });
 
     //split the text using / and get the second part
-    const totalBirds = arrivalsValue.split('/')[1];
-    
-     // Initial API call with extracted data
+    let totalBirds;
+    if(!arrivalsValue.includes('/')){
+        totalBirds = '0';
+    }else{
+        totalBirds = arrivalsValue.split('/')[1];    
+    }
+     
+     postData = {
+        url: url,
+        title: title,
+        dateTime: dateTimeUtc,
+        display_start_time: dateTime,
+        distance: distanceKm.toString(),
+        location: (location) ? location : '-',
+        totalBirds: totalBirds
+     }
+     console.log('postData', postData);
      try {
-        const res = await axios.post(baseUrl + '/api/events/update', {
-            url: url,
-            title: title,
-            dateTime: dateTimeUtc,
-            distance: distanceKm.toString(),
-            location: location,
-            totalBirds: totalBirds
-        });
+        const res = await axios.post(baseUrl + '/api/events/update', postData);
         console.log('✅ Initial POST success:', res.status);
     } catch (err) {
+        console.log('error', err.body);
         console.error('❌ Initial POST failed:', err.message);
     }
     // console.log('Attaching observer...');
@@ -165,7 +184,8 @@ async function startWatcher() {
 
         try {
             const res = await axios.post(baseUrl +'/api/events/update', {
-                value: newValue
+                url: postData.url,
+                new_arrivals: true
             });
             console.log('sending new arrivals value:', newValue);
             // console.log('POST success:', res.status);
