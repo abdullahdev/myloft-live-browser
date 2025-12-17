@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const axios = require('axios');
-// const baseUrl = 'https://live.myloft.ro';
-const baseUrl = 'http://127.0.0.1:8000';
+const baseUrl = 'https://live-api.myloft.ro';
+// const baseUrl = 'http://127.0.0.1:8000';
 let postData = {};
 async function startWatcher() {
     const url = process.argv[2];
@@ -64,16 +64,15 @@ async function startWatcher() {
     //     const distanceKm = distance ? parseInt(distance.match(/\d+/)?.[0] || '0', 10) : null;
     // }
     let distanceKm = 0;
+    let isMiles = false;
+    let distanceInMiles = 0;
     if(distance){
-        let isMiles = false;
         if(!distance.includes('km')){
             //it must be miles so convert to km
+            distanceInMiles = distance ? parseInt(distance.match(/\d+/)?.[0] || '0', 10) : null;
             isMiles = true;
         }
         distanceKm = distance ? parseInt(distance.match(/\d+/)?.[0] || '0', 10) : null;
-        if(isMiles){
-            distanceKm = distanceKm * 1.60934;
-        }
     }
 
     // Convert dateTime to UTC ISO format
@@ -165,10 +164,12 @@ async function startWatcher() {
         dateTime: dateTimeUtc,
         display_start_time: dateTime,
         distance: distanceKm.toString(),
+        distance_in_miles: distanceInMiles.toString(),
         location: (location) ? location : '-',
-        totalBirds: totalBirds
+        totalBirds: totalBirds,
+        is_miles: isMiles
      }
-     console.log('postData', postData);
+    
      try {
         const res = await axios.post(baseUrl + '/api/events/update', postData);
         console.log('✅ Initial POST success:', res.status);
@@ -180,7 +181,7 @@ async function startWatcher() {
 
     // Expose a Node function so page context can call back
     await page.exposeFunction('onArrivalsChanged', async (newValue) => {
-        // console.log('Detected change:', newValue);
+        console.log('Detected change:', newValue);
 
         try {
             const res = await axios.post(baseUrl +'/api/events/update', {
@@ -190,12 +191,13 @@ async function startWatcher() {
             console.log('sending new arrivals value:', newValue);
             // console.log('POST success:', res.status);
         } catch (err) {
-            // console.error('POST failed:', err.message);
+            console.error('POST failed:', err.message);
         }
     });
 
     // Inject MutationObserver into the page
     await page.evaluate(() => {
+        console.log('mutation observer started');
         const labels = Array.from(document.querySelectorAll('.TextLeft-Gray-70'));
         const arrivalsLabel = labels.find(el => el.textContent.trim() === 'Arrivals');
         if (!arrivalsLabel) return;
@@ -206,6 +208,8 @@ async function startWatcher() {
         if (!valueEl) return;
 
         let lastValue = valueEl.textContent.trim();
+        console.log('lastValue', lastValue);
+        console.log('valueEl', valueEl);
 
         const observer = new MutationObserver(() => {
             const newValue = valueEl.textContent.trim();
