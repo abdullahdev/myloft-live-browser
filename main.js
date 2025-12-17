@@ -6,7 +6,7 @@ let postData = {};
 async function startWatcher() {
     const url = process.argv[2];
     const browser = await puppeteer.launch({
-        headless: false, // change to false for debugging
+        headless: true, // change to false for debugging
         defaultViewport: null,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
