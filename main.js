@@ -152,10 +152,14 @@ async function startWatcher() {
 
     //split the text using / and get the second part
     let totalBirds;
+    let arrivedBirds;
     if(!arrivalsValue.includes('/')){
         totalBirds = '0';
+        arrivedBirds = '0';
+        arrivedBirds = arrivalsValue;
     }else{
         totalBirds = arrivalsValue.split('/')[1];    
+        arrivedBirds = arrivalsValue.split('/')[0];
     }
      
      postData = {
@@ -167,9 +171,10 @@ async function startWatcher() {
         distance_in_miles: distanceInMiles.toString(),
         location: (location) ? location : '-',
         totalBirds: totalBirds,
+        arrivedBirds: arrivedBirds,
         is_miles: isMiles
      }
-    
+    console.log('postData', postData);
      try {
         const res = await axios.post(baseUrl + '/api/events/update', postData);
         console.log('✅ Initial POST success:', res.status);
@@ -182,11 +187,17 @@ async function startWatcher() {
     // Expose a Node function so page context can call back
     await page.exposeFunction('onArrivalsChanged', async (newValue) => {
         console.log('Detected change:', newValue);
-
+        let arrivedBirds;
+        if(!newValue.includes('/')){
+            arrivedBirds = arrivalsValue;
+        }else{
+            arrivedBirds = arrivalsValue.split('/')[0];
+        }
         try {
             const res = await axios.post(baseUrl +'/api/events/update', {
                 url: postData.url,
-                new_arrivals: true
+                new_arrivals: true,
+                arrivedBirds: arrivedBirds
             });
             console.log('sending new arrivals value:', newValue);
             // console.log('POST success:', res.status);
