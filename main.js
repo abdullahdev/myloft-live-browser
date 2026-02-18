@@ -188,10 +188,10 @@ async function startWatcher() {
     await page.exposeFunction('onArrivalsChanged', async (newValue) => {
         console.log('Detected change:', newValue);
         let arrivedBirds;
-        if(!newValue.includes('/')){
-            arrivedBirds = arrivalsValue;
-        }else{
-            arrivedBirds = arrivalsValue.split('/')[0];
+        if (!newValue || !newValue.includes('/')) {
+            arrivedBirds = newValue || '0';
+        } else {
+            arrivedBirds = newValue.split('/')[0];
         }
         try {
             const res = await axios.post(baseUrl +'/api/events/update', {
@@ -206,31 +206,32 @@ async function startWatcher() {
         }
     });
 
-    // Inject MutationObserver into the page
+    // Inject MutationObserver on the data table wrapper; newValue = first Small-TextLeft-Gray-100-Bold in first tr
     await page.evaluate(() => {
         console.log('mutation observer started');
-        const labels = Array.from(document.querySelectorAll('.TextLeft-Gray-70'));
-        const arrivalsLabel = labels.find(el => el.textContent.trim() === 'Arrivals');
-        if (!arrivalsLabel) return;
+        const wrapper = document.querySelector('.v-data-table__wrapper');
+        if (!wrapper || !wrapper.querySelector('table')) {
+            console.warn('v-data-table__wrapper or its table not found');
+            return;
+        }
 
-        const valueEl = arrivalsLabel.nextElementSibling?.classList.contains('ParagraphLeft-Gray-100-Bold')
-            ? arrivalsLabel.nextElementSibling
-            : null;
-        if (!valueEl) return;
+        function getFirstCellValue() {
+            const cell = wrapper.querySelector('tr .Small-TextLeft-Gray-100-Bold');
+            return cell ? cell.textContent.trim() : '';
+        }
 
-        let lastValue = valueEl.textContent.trim();
-        console.log('lastValue', lastValue);
-        console.log('valueEl', valueEl);
+        let lastValue = getFirstCellValue();
+        console.log('lastValue (first Small-TextLeft-Gray-100-Bold in first tr):', lastValue);
 
         const observer = new MutationObserver(() => {
-            const newValue = valueEl.textContent.trim();
+            const newValue = getFirstCellValue();
             if (newValue !== lastValue) {
                 lastValue = newValue;
                 window.onArrivalsChanged(newValue);
             }
         });
 
-        observer.observe(valueEl, { characterData: true, childList: true, subtree: true });
+        observer.observe(wrapper, { childList: true, subtree: true, characterData: true });
     });
 
     // console.log('👀 Watching for Arrivals changes... (press Ctrl+C to stop)');
