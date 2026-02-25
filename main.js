@@ -207,10 +207,21 @@ async function startWatcher() {
                 const maxOrder = Math.max(...orders);
                 console.log('Pigeons batch size:', pigeons.length, 'arrival_order range:', minOrder, 'to', maxOrder);
             }
-            const res = await axios.post(baseUrl + '/api/events/update', {
+            const batchPayload = {
                 url: postData.url,
+                title: postData.title,
+                dateTime: postData.dateTime,
+                display_start_time: postData.display_start_time,
+                distance: postData.distance,
+                distance_in_miles: postData.distance_in_miles,
+                location: postData.location,
+                totalBirds: postData.totalBirds,
+                arrivedBirds: Array.isArray(pigeons) ? String(pigeons.length) : postData.arrivedBirds,
+                is_miles: postData.is_miles,
+                new_arrival: false,
                 pigeons: pigeons
-            });
+            };
+            const res = await axios.post(baseUrl + '/api/events/update', batchPayload);
             console.log('✅ Pigeons batch POST success:', res.status, 'count:', Array.isArray(pigeons) ? pigeons.length : 0);
         } catch (err) {
             console.error('❌ Pigeons batch POST failed:', err.message);
