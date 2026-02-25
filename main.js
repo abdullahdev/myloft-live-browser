@@ -1,12 +1,13 @@
 const puppeteer = require('puppeteer');
 const axios = require('axios');
-const baseUrl = 'https://live-api.myloft.ro';
-// const baseUrl = 'http://127.0.0.1:8000';
+const fs = require('fs');
+// const baseUrl = 'https://live-api.myloft.ro';
+const baseUrl = 'http://127.0.0.1:8000';
 let postData = {};
 async function startWatcher() {
     const url = process.argv[2];
     const browser = await puppeteer.launch({
-        headless: true, // change to false for debugging
+        headless: false, // change to false for debugging
         defaultViewport: null,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
@@ -182,6 +183,264 @@ async function startWatcher() {
         console.log('error', err.body);
         console.error('❌ Initial POST failed:', err.message);
     }
+
+    // Expose a Node function so page context can send full pigeons arrays
+    await page.exposeFunction('onPigeonsBatchUpdated', async (pigeons) => {
+        try {
+            // TEST ONLY: save latest pigeons batch to a file before posting
+            // Comment this block out in production.
+            fs.writeFileSync(
+                'pigeons-debug.json',
+                JSON.stringify(pigeons, null, 2),
+                'utf8'
+            );
+        } catch (err) {
+            console.error('Failed to write pigeons-debug.json:', err.message);
+        }
+
+        try {
+            if (Array.isArray(pigeons) && pigeons.length > 0) {
+                const orders = pigeons
+                    .map(p => p.arrival_order)
+                    .filter(n => typeof n === 'number');
+                const minOrder = Math.min(...orders);
+                const maxOrder = Math.max(...orders);
+                console.log('Pigeons batch size:', pigeons.length, 'arrival_order range:', minOrder, 'to', maxOrder);
+            }
+            const res = await axios.post(baseUrl + '/api/events/update', {
+                url: postData.url,
+                pigeons: pigeons
+            });
+            console.log('✅ Pigeons batch POST success:', res.status, 'count:', Array.isArray(pigeons) ? pigeons.length : 0);
+        } catch (err) {
+            console.error('❌ Pigeons batch POST failed:', err.message);
+        }
+    });
+
+    // Switch to the "Arrivals" tab so we can work with the ordered arrivals list
+    await page.evaluate(() => {
+        const candidates = Array.from(document.querySelectorAll('a[role="tab"], button[role="tab"], .v-tab'));
+        const arrivalsTab = candidates.find(el => el.textContent && el.textContent.trim().includes('Arrivals'));
+        if (arrivalsTab) {
+            (arrivalsTab).click();
+        } else {
+            console.warn('Arrivals tab not found');
+        }
+    });
+
+    // Give the Arrivals tab a moment to render its table
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
+    // Start a collector in the page that:
+    //  - walks through all pages once and builds an array of pigeons
+    //  - posts the full array when done
+    //  - then watches for new pigeons and new pages every 5 seconds, updating and re-posting as needed
+    await page.evaluate(() => {
+        const win = window;
+        if (win.__pigeonCollectorStarted) {
+            return;
+        }
+        win.__pigeonCollectorStarted = true;
+
+        const state = {
+            pigeons: [],
+            initialScanDone: false
+        };
+
+        function parseArrivalTime(raw) {
+            if (!raw) return null;
+            const text = raw.trim();
+            const match = text.match(/(\d{2})\.(\d{2})\.(\d{4})\s+(\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?)/);
+            if (!match) return null;
+            const [, day, month, year, time] = match;
+            // Convert "DD.MM.YYYY HH:mm:ss.SSS" -> "YYYY-MM-DD HH:mm:ss.SSS"
+            return `${year}-${month}-${day} ${time}`;
+        }
+
+        function getCountryFromFlag(td) {
+            const flagEl = td.querySelector('.flag');
+            if (!flagEl) return null;
+            const cls = Array.from(flagEl.classList).find(c => c.startsWith('f-') && c.length > 2);
+            if (!cls) return null;
+            return cls.slice(2).toUpperCase();
+        }
+
+        function parsePigeonRow(tr) {
+            const cells = tr.querySelectorAll('td');
+            if (cells.length < 3) return null;
+
+            // Arrival order
+            const orderEl = cells[0].querySelector('.Small-TextLeft-Gray-100-Bold');
+            const orderText = orderEl ? orderEl.textContent.trim() : '';
+            const arrival_order = parseInt(orderText, 10) || null;
+
+            // Team name and country
+            const teamCell = cells[1];
+            const nameEl = teamCell.querySelector('.TextLeft-Gray-100-Bold');
+            const teamName = nameEl ? nameEl.textContent.trim() : '';
+            const country = getCountryFromFlag(teamCell);
+
+            // Ring description
+            let ring = null;
+            const ringContainer = teamCell.querySelector('.Small-TextLeft-Gray-70');
+            if (ringContainer) {
+                const spans = Array.from(ringContainer.querySelectorAll('span'));
+                const ringSpan = spans.find(s => s.textContent && s.textContent.trim());
+                if (ringSpan) {
+                    ring = ringSpan.textContent.trim();
+                }
+            }
+
+            // Arrival time
+            const arrivalCell = cells[2];
+            const arrivalRaw = arrivalCell ? arrivalCell.textContent : '';
+            const arrival_time = parseArrivalTime(arrivalRaw);
+
+            // Speed (if available)
+            let speed = null;
+            if (cells.length > 3) {
+                const speedText = cells[3].textContent || '';
+                const parsedSpeed = parseFloat(speedText);
+                if (!Number.isNaN(parsedSpeed)) {
+                    speed = parsedSpeed;
+                }
+            }
+
+            if (!ring) {
+                return null;
+            }
+
+            const pigeon_id = ring;
+
+            return {
+                pigeon_id: pigeon_id,
+                arrival_order: arrival_order,
+                arrival_time: arrival_time,
+                speed: speed,
+                pigeon: {
+                    ring_description: ring,
+                    pigeon_team: {
+                        name: teamName,
+                        country: country
+                    }
+                }
+            };
+        }
+
+        function scanCurrentPageForNewPigeons() {
+            // Prefer the currently visible data table, but fall back to any tbody rows
+            let rows = [];
+            const wrappers = Array.from(document.querySelectorAll('.v-data-table__wrapper'));
+            const visibleWrapper = wrappers.find(w => w.offsetParent !== null && w.querySelector('table tbody'));
+            if (visibleWrapper) {
+                rows = Array.from(visibleWrapper.querySelectorAll('table tbody tr'));
+            } else {
+                rows = Array.from(document.querySelectorAll('table tbody tr'));
+            }
+
+            for (const row of rows) {
+                const pigeon = parsePigeonRow(row);
+                if (!pigeon || !pigeon.pigeon_id) continue;
+                if (state.pigeons.some(p => p.pigeon_id === pigeon.pigeon_id)) continue;
+                state.pigeons.push(pigeon);
+            }
+        }
+
+        function getNextButton() {
+            const buttons = Array.from(document.querySelectorAll('button[aria-label="Next page"]'));
+            return buttons.find(btn => btn.offsetParent !== null);
+        }
+
+        function getPrevButton() {
+            const buttons = Array.from(document.querySelectorAll('button[aria-label="Previous page"]'));
+            return buttons.find(btn => btn.offsetParent !== null);
+        }
+
+        function isNextEnabled(btn) {
+            if (!btn) return false;
+            if (btn.disabled) return false;
+            if (btn.getAttribute('aria-disabled') === 'true') return false;
+            if (btn.classList.contains('v-btn--disabled')) return false;
+            return true;
+        }
+
+        function getFirstArrivalOrderOnPage() {
+            const wrappers = Array.from(document.querySelectorAll('.v-data-table__wrapper'));
+            const visibleWrapper = wrappers.find(w => w.offsetParent !== null && w.querySelector('table tbody'));
+            const root = visibleWrapper || document;
+            const cell = root.querySelector('table tbody tr td .Small-TextLeft-Gray-100-Bold');
+            if (!cell) return null;
+            const txt = cell.textContent.trim();
+            const num = parseInt(txt, 10);
+            return Number.isNaN(num) ? null : num;
+        }
+
+        async function initialPaginationScan() {
+            // Try to navigate back until we find the page where arrival_order starts at 1
+            for (let i = 0; i < 200; i++) { // hard cap to avoid infinite loop
+                const firstOrder = getFirstArrivalOrderOnPage();
+                if (firstOrder === 1) break;
+                const prevBtn = getPrevButton();
+                if (!isNextEnabled(prevBtn)) break;
+                prevBtn.click();
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+
+            scanCurrentPageForNewPigeons();
+            // Walk forward through pages until Next is no longer enabled
+            // so we collect all current pigeons once.
+            while (true) {
+                const nextBtn = getNextButton();
+                if (!isNextEnabled(nextBtn)) break;
+                nextBtn.click();
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                scanCurrentPageForNewPigeons();
+            }
+            state.initialScanDone = true;
+            if (typeof win.onPigeonsBatchUpdated === 'function') {
+                win.onPigeonsBatchUpdated(state.pigeons);
+            }
+        }
+
+        // Kick off the initial full scan
+        initialPaginationScan();
+
+        const wrapper = document.querySelector('.v-data-table__wrapper');
+        if (wrapper) {
+            // Watch for new rows on the current page after the initial scan
+            const observer = new MutationObserver(() => {
+                if (!state.initialScanDone) return;
+                const beforeCount = state.pigeons.length;
+                scanCurrentPageForNewPigeons();
+                if (state.pigeons.length !== beforeCount && typeof win.onPigeonsBatchUpdated === 'function') {
+                    win.onPigeonsBatchUpdated(state.pigeons);
+                }
+            });
+            observer.observe(wrapper, { childList: true, subtree: true, characterData: true });
+        }
+
+        // Every 5 seconds, check whether the Next button has become enabled
+        // (i.e. new pages exist because more pigeons have arrived).
+        setInterval(async () => {
+            if (!state.initialScanDone) return;
+            let nextBtn = getNextButton();
+            if (!isNextEnabled(nextBtn)) return;
+
+            // New page(s) are available, walk forward until we reach the end again.
+            while (true) {
+                nextBtn = getNextButton();
+                if (!isNextEnabled(nextBtn)) break;
+                nextBtn.click();
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                scanCurrentPageForNewPigeons();
+            }
+
+            if (typeof win.onPigeonsBatchUpdated === 'function') {
+                win.onPigeonsBatchUpdated(state.pigeons);
+            }
+        }, 5000);
+    });
+
     // console.log('Attaching observer...');
 
     // Expose a Node function so page context can call back
@@ -240,7 +499,7 @@ async function startWatcher() {
         console.log("⏰ Restarting watcher...");
         await browser.close();
         startWatcher(); 
-    }, 5 * 60 * 1000);
+    }, 15 * 60 * 1000);
 };
 
 startWatcher();
