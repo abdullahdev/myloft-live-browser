@@ -244,7 +244,9 @@ async function startWatcher() {
 
         const state = {
             pigeons: [],
-            initialScanDone: false
+            initialScanDone: false,
+            isScanningPage: false,
+            isPaginating: false
         };
 
         function parseArrivalTime(raw) {
@@ -376,6 +378,8 @@ async function startWatcher() {
         }
 
         async function initialPaginationScan() {
+            if (state.isPaginating) return;
+            state.isPaginating = true;
             // Try to navigate back until we find the page where arrival_order starts at 1
             for (let i = 0; i < 200; i++) { // hard cap to avoid infinite loop
                 const firstOrder = getFirstArrivalOrderOnPage();
@@ -386,7 +390,9 @@ async function startWatcher() {
                 await new Promise(resolve => setTimeout(resolve, 1000));
             }
 
+            state.isScanningPage = true;
             scanCurrentPageForNewPigeons();
+            state.isScanningPage = false;
             // Walk forward through pages until Next is no longer enabled
             // so we collect all current pigeons once.
             while (true) {
@@ -394,9 +400,12 @@ async function startWatcher() {
                 if (!isNextEnabled(nextBtn)) break;
                 nextBtn.click();
                 await new Promise(resolve => setTimeout(resolve, 1500));
+                state.isScanningPage = true;
                 scanCurrentPageForNewPigeons();
+                state.isScanningPage = false;
             }
             state.initialScanDone = true;
+            state.isPaginating = false;
             if (typeof win.onPigeonsBatchUpdated === 'function') {
                 win.onPigeonsBatchUpdated(state.pigeons);
             }
@@ -410,8 +419,12 @@ async function startWatcher() {
             // Watch for new rows on the current page after the initial scan
             const observer = new MutationObserver(() => {
                 if (!state.initialScanDone) return;
+                if (state.isPaginating) return;
+                if (state.isScanningPage) return;
+                state.isScanningPage = true;
                 const beforeCount = state.pigeons.length;
                 scanCurrentPageForNewPigeons();
+                state.isScanningPage = false;
                 if (state.pigeons.length !== beforeCount && typeof win.onPigeonsBatchUpdated === 'function') {
                     win.onPigeonsBatchUpdated(state.pigeons);
                 }
@@ -423,18 +436,23 @@ async function startWatcher() {
         // (i.e. new pages exist because more pigeons have arrived).
         setInterval(async () => {
             if (!state.initialScanDone) return;
+            if (state.isScanningPage) return;
+            if (state.isPaginating) return;
             let nextBtn = getNextButton();
             if (!isNextEnabled(nextBtn)) return;
 
             // New page(s) are available, walk forward until we reach the end again.
+            state.isPaginating = true;
             while (true) {
                 nextBtn = getNextButton();
                 if (!isNextEnabled(nextBtn)) break;
                 nextBtn.click();
                 await new Promise(resolve => setTimeout(resolve, 1500));
+                state.isScanningPage = true;
                 scanCurrentPageForNewPigeons();
+                state.isScanningPage = false;
             }
-
+            state.isPaginating = false;
             if (typeof win.onPigeonsBatchUpdated === 'function') {
                 win.onPigeonsBatchUpdated(state.pigeons);
             }
