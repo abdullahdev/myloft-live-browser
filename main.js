@@ -388,6 +388,30 @@ async function startWatcher() {
             return Number.isNaN(num) ? null : num;
         }
 
+        async function goToNextPageAndScanSafely() {
+            const currentFirstOrder = getFirstArrivalOrderOnPage();
+            const btn = getNextButton();
+            if (!isNextEnabled(btn)) {
+                return false;
+            }
+            btn.click();
+
+            // Wait until the first arrival_order on the page changes (or a timeout),
+            // to avoid scanning the old page contents.
+            for (let i = 0; i < 30; i++) { // up to ~6 seconds (30 * 200ms)
+                await new Promise(resolve => setTimeout(resolve, 200));
+                const newFirstOrder = getFirstArrivalOrderOnPage();
+                if (newFirstOrder !== null && newFirstOrder !== currentFirstOrder) {
+                    break;
+                }
+            }
+
+            state.isScanningPage = true;
+            scanCurrentPageForNewPigeons();
+            state.isScanningPage = false;
+            return true;
+        }
+
         async function initialPaginationScan() {
             if (state.isPaginating) return;
             state.isPaginating = true;
@@ -409,11 +433,8 @@ async function startWatcher() {
             while (true) {
                 const nextBtn = getNextButton();
                 if (!isNextEnabled(nextBtn)) break;
-                nextBtn.click();
-                await new Promise(resolve => setTimeout(resolve, 1500));
-                state.isScanningPage = true;
-                scanCurrentPageForNewPigeons();
-                state.isScanningPage = false;
+                const moved = await goToNextPageAndScanSafely();
+                if (!moved) break;
             }
             state.initialScanDone = true;
             state.isPaginating = false;
@@ -457,11 +478,8 @@ async function startWatcher() {
             while (true) {
                 nextBtn = getNextButton();
                 if (!isNextEnabled(nextBtn)) break;
-                nextBtn.click();
-                await new Promise(resolve => setTimeout(resolve, 1500));
-                state.isScanningPage = true;
-                scanCurrentPageForNewPigeons();
-                state.isScanningPage = false;
+                const moved = await goToNextPageAndScanSafely();
+                if (!moved) break;
             }
             state.isPaginating = false;
             if (typeof win.onPigeonsBatchUpdated === 'function') {
