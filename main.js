@@ -17,10 +17,10 @@ async function startWatcher() {
     console.log(`Navigating to ${url}...`);
     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    // Wait until the "Arrivals" label is in the DOM
+    // Wait until the "Home" label is in the DOM
     await page.waitForFunction(() => {
-        return Array.from(document.querySelectorAll('.TextLeft-Gray-70'))
-            .some(el => el.textContent.trim() === 'Arrivals');
+        return Array.from(document.querySelectorAll('.TextLeft-Blue-100'))
+            .some(el => el.textContent.trim() === 'Home');
     }, { timeout: 60000 });
 
     // Extract date/time, distance, location, and title
@@ -142,25 +142,25 @@ async function startWatcher() {
     const arrivalsValue = await page.evaluate(() => {
         const labels = Array.from(document.querySelectorAll('.TextLeft-Gray-70'));
         const arrivalsLabel = labels.find(el => el.textContent.trim() === 'Arrivals');
-        if (!arrivalsLabel) return null;
+        if (!arrivalsLabel) return '';
 
         const valueEl = arrivalsLabel.nextElementSibling?.classList.contains('ParagraphLeft-Gray-100-Bold')
             ? arrivalsLabel.nextElementSibling
             : null;
-        return valueEl ? valueEl.textContent.trim() : null;
+        return valueEl ? valueEl.textContent.trim() : '';
         
-    });
+    }) || '';
 
     //split the text using / and get the second part
-    let totalBirds;
-    let arrivedBirds;
-    if(!arrivalsValue.includes('/')){
-        totalBirds = '0';
-        arrivedBirds = '0';
-        arrivedBirds = arrivalsValue;
-    }else{
-        totalBirds = arrivalsValue.split('/')[1];    
-        arrivedBirds = arrivalsValue.split('/')[0];
+    let totalBirds = '0';
+    let arrivedBirds = '0';
+    if (arrivalsValue) {
+        if (!arrivalsValue.includes('/')) {
+            arrivedBirds = arrivalsValue;
+        } else {
+            totalBirds = arrivalsValue.split('/')[1];
+            arrivedBirds = arrivalsValue.split('/')[0];
+        }
     }
      
      postData = {

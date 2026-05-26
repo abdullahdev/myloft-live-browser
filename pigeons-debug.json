@@ -1,0 +1,4578 @@
+[
+  {
+    "pigeon_id": "SA 25 16445",
+    "arrival_order": 1,
+    "arrival_time": "2026-05-26 13:32:18.450",
+    "speed": 952.6582,
+    "pigeon": {
+      "ring_description": "SA 25 16445",
+      "pigeon_team": {
+        "name": "Barber",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MBRA 25 575",
+    "arrival_order": 2,
+    "arrival_time": "2026-05-26 13:32:18.650",
+    "speed": 952.5574,
+    "pigeon": {
+      "ring_description": "MBRA 25 575",
+      "pigeon_team": {
+        "name": "Veritas Vincit 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5153",
+    "arrival_order": 3,
+    "arrival_time": "2026-05-26 13:32:18.740",
+    "speed": 952.512,
+    "pigeon": {
+      "ring_description": "BSN 25 5153",
+      "pigeon_team": {
+        "name": "Busselton 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "ANG 25 20",
+    "arrival_order": 4,
+    "arrival_time": "2026-05-26 13:32:19.360",
+    "speed": 952.1996,
+    "pigeon": {
+      "ring_description": "ANG 25 20",
+      "pigeon_team": {
+        "name": "Colegate & Moore",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--17751",
+    "arrival_order": 5,
+    "arrival_time": "2026-05-26 13:32:20.040",
+    "speed": 951.8572,
+    "pigeon": {
+      "ring_description": "SA-2025--17751",
+      "pigeon_team": {
+        "name": "Find The Treasure",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25  11448",
+    "arrival_order": 6,
+    "arrival_time": "2026-05-26 13:32:20.160",
+    "speed": 951.7968,
+    "pigeon": {
+      "ring_description": "PRF 25  11448",
+      "pigeon_team": {
+        "name": "Deb & Des",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CANB 25 1022",
+    "arrival_order": 7,
+    "arrival_time": "2026-05-26 13:32:20.720",
+    "speed": 951.515,
+    "pigeon": {
+      "ring_description": "CANB 25 1022",
+      "pigeon_team": {
+        "name": "RMSP1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MBRA 25 506",
+    "arrival_order": 8,
+    "arrival_time": "2026-05-26 13:32:20.830",
+    "speed": 951.4597,
+    "pigeon": {
+      "ring_description": "MBRA 25 506",
+      "pigeon_team": {
+        "name": "Veritas Vincit 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13842",
+    "arrival_order": 9,
+    "arrival_time": "2026-05-26 13:32:20.850",
+    "speed": 951.4496,
+    "pigeon": {
+      "ring_description": "VHA 25 13842",
+      "pigeon_team": {
+        "name": "Fineblend",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-14858",
+    "arrival_order": 10,
+    "arrival_time": "2026-05-26 13:32:21.000",
+    "speed": 951.3742,
+    "pigeon": {
+      "ring_description": "SA-2025-14858",
+      "pigeon_team": {
+        "name": "Bryant Brigade",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 7066",
+    "arrival_order": 11,
+    "arrival_time": "2026-05-26 13:32:21.850",
+    "speed": 950.947,
+    "pigeon": {
+      "ring_description": "SA 25 7066",
+      "pigeon_team": {
+        "name": "Donnybrook Punters Club",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "COLAC 25 356",
+    "arrival_order": 12,
+    "arrival_time": "2026-05-26 13:32:21.970",
+    "speed": 950.8867,
+    "pigeon": {
+      "ring_description": "COLAC 25 356",
+      "pigeon_team": {
+        "name": "PWYC RACING",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5319",
+    "arrival_order": 13,
+    "arrival_time": "2026-05-26 13:32:23.320",
+    "speed": 950.209,
+    "pigeon": {
+      "ring_description": "CCF 25 5319",
+      "pigeon_team": {
+        "name": "Poi Weynton 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 1960",
+    "arrival_order": 14,
+    "arrival_time": "2026-05-26 13:32:24.060",
+    "speed": 949.838,
+    "pigeon": {
+      "ring_description": "GVPF 25 1960",
+      "pigeon_team": {
+        "name": "Kia Ora",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 4031",
+    "arrival_order": 15,
+    "arrival_time": "2026-05-26 13:32:24.110",
+    "speed": 949.8129,
+    "pigeon": {
+      "ring_description": "GVPF 25 4031",
+      "pigeon_team": {
+        "name": "S & A James",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CANB 25 1039",
+    "arrival_order": 16,
+    "arrival_time": "2026-05-26 13:32:24.660",
+    "speed": 949.5374,
+    "pigeon": {
+      "ring_description": "CANB 25 1039",
+      "pigeon_team": {
+        "name": "RMSP1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PP 25 817",
+    "arrival_order": 17,
+    "arrival_time": "2026-05-26 13:32:25.060",
+    "speed": 949.337,
+    "pigeon": {
+      "ring_description": "PP 25 817",
+      "pigeon_team": {
+        "name": "B & D",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 3440",
+    "arrival_order": 18,
+    "arrival_time": "2026-05-26 13:32:25.080",
+    "speed": 949.327,
+    "pigeon": {
+      "ring_description": "SA 25 3440",
+      "pigeon_team": {
+        "name": "Southside Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "QPF 25 6489",
+    "arrival_order": 19,
+    "arrival_time": "2026-05-26 13:32:25.120",
+    "speed": 949.307,
+    "pigeon": {
+      "ring_description": "QPF 25 6489",
+      "pigeon_team": {
+        "name": "Greg Jenkins",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SGR 25 104",
+    "arrival_order": 20,
+    "arrival_time": "2026-05-26 13:32:25.500",
+    "speed": 949.1168,
+    "pigeon": {
+      "ring_description": "SGR 25 104",
+      "pigeon_team": {
+        "name": "Dream it 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 3861",
+    "arrival_order": 21,
+    "arrival_time": "2026-05-26 13:32:25.970",
+    "speed": 948.8816,
+    "pigeon": {
+      "ring_description": "VHA 25 3861",
+      "pigeon_team": {
+        "name": "S & R Kearsey",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SGR 25 103",
+    "arrival_order": 22,
+    "arrival_time": "2026-05-26 13:32:26.040",
+    "speed": 948.8466,
+    "pigeon": {
+      "ring_description": "SGR 25 103",
+      "pigeon_team": {
+        "name": "Dream it 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CANB 25 1037",
+    "arrival_order": 23,
+    "arrival_time": "2026-05-26 13:32:26.270",
+    "speed": 948.7316,
+    "pigeon": {
+      "ring_description": "CANB 25 1037",
+      "pigeon_team": {
+        "name": "RMSP1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-14861",
+    "arrival_order": 24,
+    "arrival_time": "2026-05-26 13:32:26.620",
+    "speed": 948.5566,
+    "pigeon": {
+      "ring_description": "SA-2025-14861",
+      "pigeon_team": {
+        "name": "Bryant Brigade",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-3332",
+    "arrival_order": 25,
+    "arrival_time": "2026-05-26 13:32:26.690",
+    "speed": 948.5216,
+    "pigeon": {
+      "ring_description": "SA-2025-3332",
+      "pigeon_team": {
+        "name": "Fly to a shoebox",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "DURAL 25 1625",
+    "arrival_order": 26,
+    "arrival_time": "2026-05-26 13:32:26.720",
+    "speed": 948.5066,
+    "pigeon": {
+      "ring_description": "DURAL 25 1625",
+      "pigeon_team": {
+        "name": "Eggleton Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 3498",
+    "arrival_order": 27,
+    "arrival_time": "2026-05-26 13:32:26.880",
+    "speed": 948.4267,
+    "pigeon": {
+      "ring_description": "SA 25 3498",
+      "pigeon_team": {
+        "name": "Southside Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5329",
+    "arrival_order": 28,
+    "arrival_time": "2026-05-26 13:32:27.080",
+    "speed": 948.3267,
+    "pigeon": {
+      "ring_description": "CCF 25 5329",
+      "pigeon_team": {
+        "name": "Poi Weynton 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 4032",
+    "arrival_order": 29,
+    "arrival_time": "2026-05-26 13:32:27.700",
+    "speed": 948.0171,
+    "pigeon": {
+      "ring_description": "GVPF 25 4032",
+      "pigeon_team": {
+        "name": "S & A James",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PP 25 820",
+    "arrival_order": 30,
+    "arrival_time": "2026-05-26 13:32:27.910",
+    "speed": 947.9122,
+    "pigeon": {
+      "ring_description": "PP 25 820",
+      "pigeon_team": {
+        "name": "Muffy & Rocco",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "WPF 25 11259",
+    "arrival_order": 31,
+    "arrival_time": "2026-05-26 13:32:28.110",
+    "speed": 947.8124,
+    "pigeon": {
+      "ring_description": "WPF 25 11259",
+      "pigeon_team": {
+        "name": "FQ Bro 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 16447",
+    "arrival_order": 32,
+    "arrival_time": "2026-05-26 13:32:28.170",
+    "speed": 947.7825,
+    "pigeon": {
+      "ring_description": "SA 25 16447",
+      "pigeon_team": {
+        "name": "Barber",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MTD 25 459",
+    "arrival_order": 33,
+    "arrival_time": "2026-05-26 13:32:28.370",
+    "speed": 947.6827,
+    "pigeon": {
+      "ring_description": "MTD 25 459",
+      "pigeon_team": {
+        "name": "Brown Bros",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5312",
+    "arrival_order": 34,
+    "arrival_time": "2026-05-26 13:32:28.830",
+    "speed": 947.4532,
+    "pigeon": {
+      "ring_description": "CCF 25 5312",
+      "pigeon_team": {
+        "name": "Poi Weynton 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 7044",
+    "arrival_order": 35,
+    "arrival_time": "2026-05-26 13:32:28.850",
+    "speed": 947.4432,
+    "pigeon": {
+      "ring_description": "SA 25 7044",
+      "pigeon_team": {
+        "name": "Micky D",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SGR 25 108",
+    "arrival_order": 36,
+    "arrival_time": "2026-05-26 13:32:29.080",
+    "speed": 947.3285,
+    "pigeon": {
+      "ring_description": "SGR 25 108",
+      "pigeon_team": {
+        "name": "Dream it 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 15546",
+    "arrival_order": 37,
+    "arrival_time": "2026-05-26 13:32:29.590",
+    "speed": 947.0743,
+    "pigeon": {
+      "ring_description": "SA 25 15546",
+      "pigeon_team": {
+        "name": "Yang & Gao SA",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--8273",
+    "arrival_order": 38,
+    "arrival_time": "2026-05-26 13:32:29.650",
+    "speed": 947.0444,
+    "pigeon": {
+      "ring_description": "SA-2025--8273",
+      "pigeon_team": {
+        "name": "W March",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1109",
+    "arrival_order": 39,
+    "arrival_time": "2026-05-26 13:32:29.670",
+    "speed": 947.0345,
+    "pigeon": {
+      "ring_description": "BH 25 1109",
+      "pigeon_team": {
+        "name": "Grillett & McConachy 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 9401",
+    "arrival_order": 40,
+    "arrival_time": "2026-05-26 13:32:29.970",
+    "speed": 946.885,
+    "pigeon": {
+      "ring_description": "SA 25 9401",
+      "pigeon_team": {
+        "name": "Baltic",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 19643",
+    "arrival_order": 41,
+    "arrival_time": "2026-05-26 13:32:30.000",
+    "speed": 946.8701,
+    "pigeon": {
+      "ring_description": "SA 25 19643",
+      "pigeon_team": {
+        "name": "Start The Carr",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 2658",
+    "arrival_order": 42,
+    "arrival_time": "2026-05-26 13:32:30.110",
+    "speed": 946.8153,
+    "pigeon": {
+      "ring_description": "GIPPS 25 2658",
+      "pigeon_team": {
+        "name": "Don Zheng& Roy Xia 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-2977",
+    "arrival_order": 43,
+    "arrival_time": "2026-05-26 13:32:30.530",
+    "speed": 946.6062,
+    "pigeon": {
+      "ring_description": "SA-2025-2977",
+      "pigeon_team": {
+        "name": "Geoff Cawte (B)",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 4778",
+    "arrival_order": 44,
+    "arrival_time": "2026-05-26 13:32:30.540",
+    "speed": 946.6012,
+    "pigeon": {
+      "ring_description": "SA 25 4778",
+      "pigeon_team": {
+        "name": "Heelers",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 545",
+    "arrival_order": 45,
+    "arrival_time": "2026-05-26 13:32:31.030",
+    "speed": 946.3573,
+    "pigeon": {
+      "ring_description": "SA 25 545",
+      "pigeon_team": {
+        "name": "Cornish Raiders",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-2939",
+    "arrival_order": 46,
+    "arrival_time": "2026-05-26 13:32:31.240",
+    "speed": 946.2528,
+    "pigeon": {
+      "ring_description": "SA-2025-2939",
+      "pigeon_team": {
+        "name": "Geoff Cawte (C)",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BALWEST 25 1760",
+    "arrival_order": 47,
+    "arrival_time": "2026-05-26 13:32:31.270",
+    "speed": 946.2379,
+    "pigeon": {
+      "ring_description": "BALWEST 25 1760",
+      "pigeon_team": {
+        "name": "A & J Syndicate 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13761",
+    "arrival_order": 48,
+    "arrival_time": "2026-05-26 13:32:31.530",
+    "speed": 946.1086,
+    "pigeon": {
+      "ring_description": "VHA 25 13761",
+      "pigeon_team": {
+        "name": "Cini, Gazzola & Shore",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 3325",
+    "arrival_order": 49,
+    "arrival_time": "2026-05-26 13:32:31.700",
+    "speed": 946.0241,
+    "pigeon": {
+      "ring_description": "SA 25 3325",
+      "pigeon_team": {
+        "name": "KB1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "AUST 25 3420",
+    "arrival_order": 50,
+    "arrival_time": "2026-05-26 13:32:31.760",
+    "speed": 945.9942,
+    "pigeon": {
+      "ring_description": "AUST 25 3420",
+      "pigeon_team": {
+        "name": "Phoenix Lofts 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--18587",
+    "arrival_order": 51,
+    "arrival_time": "2026-05-26 13:32:32.190",
+    "speed": 945.7805,
+    "pigeon": {
+      "ring_description": "SA-2025--18587",
+      "pigeon_team": {
+        "name": "Central Districts RPC",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1105",
+    "arrival_order": 52,
+    "arrival_time": "2026-05-26 13:32:32.660",
+    "speed": 945.547,
+    "pigeon": {
+      "ring_description": "BH 25 1105",
+      "pigeon_team": {
+        "name": "Grillett & McConachy 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "AUST 25 3395",
+    "arrival_order": 53,
+    "arrival_time": "2026-05-26 13:32:32.930",
+    "speed": 945.4129,
+    "pigeon": {
+      "ring_description": "AUST 25 3395",
+      "pigeon_team": {
+        "name": "Phoenix Lofts 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 5420",
+    "arrival_order": 54,
+    "arrival_time": "2026-05-26 13:32:32.940",
+    "speed": 945.4079,
+    "pigeon": {
+      "ring_description": "SA 25 5420",
+      "pigeon_team": {
+        "name": "Group 1 Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "RRPF 25 635",
+    "arrival_order": 55,
+    "arrival_time": "2026-05-26 13:32:32.950",
+    "speed": 945.403,
+    "pigeon": {
+      "ring_description": "RRPF 25 635",
+      "pigeon_team": {
+        "name": "Suttos",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 19640",
+    "arrival_order": 56,
+    "arrival_time": "2026-05-26 13:32:33.170",
+    "speed": 945.2938,
+    "pigeon": {
+      "ring_description": "SA 25 19640",
+      "pigeon_team": {
+        "name": "Start The Carr",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-5790",
+    "arrival_order": 57,
+    "arrival_time": "2026-05-26 13:32:33.350",
+    "speed": 945.2044,
+    "pigeon": {
+      "ring_description": "SA-2025-5790",
+      "pigeon_team": {
+        "name": "Blackwood Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 18157",
+    "arrival_order": 58,
+    "arrival_time": "2026-05-26 13:32:33.550",
+    "speed": 945.1051,
+    "pigeon": {
+      "ring_description": "SA 25 18157",
+      "pigeon_team": {
+        "name": "Blaser & Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1106",
+    "arrival_order": 59,
+    "arrival_time": "2026-05-26 13:32:33.580",
+    "speed": 945.0903,
+    "pigeon": {
+      "ring_description": "BH 25 1106",
+      "pigeon_team": {
+        "name": "Grillett & McConachy 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 9070",
+    "arrival_order": 60,
+    "arrival_time": "2026-05-26 13:32:34.210",
+    "speed": 944.7777,
+    "pigeon": {
+      "ring_description": "SA 25 9070",
+      "pigeon_team": {
+        "name": "Yang & Gao SA",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 16966",
+    "arrival_order": 61,
+    "arrival_time": "2026-05-26 13:32:34.450",
+    "speed": 944.6587,
+    "pigeon": {
+      "ring_description": "SA 25 16966",
+      "pigeon_team": {
+        "name": "Nel Family",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "ESWD 25 637",
+    "arrival_order": 62,
+    "arrival_time": "2026-05-26 13:32:34.460",
+    "speed": 944.6538,
+    "pigeon": {
+      "ring_description": "ESWD 25 637",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 857",
+    "arrival_order": 63,
+    "arrival_time": "2026-05-26 13:32:34.980",
+    "speed": 944.3961,
+    "pigeon": {
+      "ring_description": "CCF 25 857",
+      "pigeon_team": {
+        "name": "Nexgen Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 17406",
+    "arrival_order": 64,
+    "arrival_time": "2026-05-26 13:32:35.610",
+    "speed": 944.084,
+    "pigeon": {
+      "ring_description": "SA 25 17406",
+      "pigeon_team": {
+        "name": "Red Dust",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "KYAB 25 1086",
+    "arrival_order": 65,
+    "arrival_time": "2026-05-26 13:32:36.030",
+    "speed": 943.8761,
+    "pigeon": {
+      "ring_description": "KYAB 25 1086",
+      "pigeon_team": {
+        "name": "Beavo's Loft",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13794",
+    "arrival_order": 66,
+    "arrival_time": "2026-05-26 13:32:36.040",
+    "speed": 943.8711,
+    "pigeon": {
+      "ring_description": "VHA 25 13794",
+      "pigeon_team": {
+        "name": "Gazzola. Shore & Cini",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GMPF 25 13221",
+    "arrival_order": 67,
+    "arrival_time": "2026-05-26 13:32:36.120",
+    "speed": 943.8315,
+    "pigeon": {
+      "ring_description": "GMPF 25 13221",
+      "pigeon_team": {
+        "name": "Macdiarmid Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MILD 25 1061",
+    "arrival_order": 68,
+    "arrival_time": "2026-05-26 13:32:36.320",
+    "speed": 943.7326,
+    "pigeon": {
+      "ring_description": "MILD 25 1061",
+      "pigeon_team": {
+        "name": "Kelly & Warburton",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 6366",
+    "arrival_order": 69,
+    "arrival_time": "2026-05-26 13:32:36.510",
+    "speed": 943.6386,
+    "pigeon": {
+      "ring_description": "GVPF 25 6366",
+      "pigeon_team": {
+        "name": "Berrigan Boys 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "KYAB 25 1083",
+    "arrival_order": 70,
+    "arrival_time": "2026-05-26 13:32:36.890",
+    "speed": 943.4506,
+    "pigeon": {
+      "ring_description": "KYAB 25 1083",
+      "pigeon_team": {
+        "name": "Beavo's Loft",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BALWEST 25 1816",
+    "arrival_order": 71,
+    "arrival_time": "2026-05-26 13:32:36.970",
+    "speed": 943.4111,
+    "pigeon": {
+      "ring_description": "BALWEST 25 1816",
+      "pigeon_team": {
+        "name": "A & J Syndicate",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-14906",
+    "arrival_order": 72,
+    "arrival_time": "2026-05-26 13:32:37.030",
+    "speed": 943.3814,
+    "pigeon": {
+      "ring_description": "SA-2025-14906",
+      "pigeon_team": {
+        "name": "Peg Leg",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 2211",
+    "arrival_order": 73,
+    "arrival_time": "2026-05-26 13:32:37.190",
+    "speed": 943.3023,
+    "pigeon": {
+      "ring_description": "CCF 25 2211",
+      "pigeon_team": {
+        "name": "Cini Bros",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MKY 25 12",
+    "arrival_order": 74,
+    "arrival_time": "2026-05-26 13:32:38.060",
+    "speed": 942.8724,
+    "pigeon": {
+      "ring_description": "MKY 25 12",
+      "pigeon_team": {
+        "name": "Whitsundays",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VRPU 25 4083",
+    "arrival_order": 75,
+    "arrival_time": "2026-05-26 13:32:38.110",
+    "speed": 942.8477,
+    "pigeon": {
+      "ring_description": "VRPU 25 4083",
+      "pigeon_team": {
+        "name": "Cini, Gazzola & Shore",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PARKES 25 1379",
+    "arrival_order": 76,
+    "arrival_time": "2026-05-26 13:32:38.120",
+    "speed": 942.8428,
+    "pigeon": {
+      "ring_description": "PARKES 25 1379",
+      "pigeon_team": {
+        "name": "Terry Townsend",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13749",
+    "arrival_order": 77,
+    "arrival_time": "2026-05-26 13:32:38.130",
+    "speed": 942.8378,
+    "pigeon": {
+      "ring_description": "VHA 25 13749",
+      "pigeon_team": {
+        "name": "Gazzola Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 5957",
+    "arrival_order": 78,
+    "arrival_time": "2026-05-26 13:32:38.290",
+    "speed": 942.7588,
+    "pigeon": {
+      "ring_description": "SA 25 5957",
+      "pigeon_team": {
+        "name": "Rayment & Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 3326",
+    "arrival_order": 79,
+    "arrival_time": "2026-05-26 13:32:38.350",
+    "speed": 942.7292,
+    "pigeon": {
+      "ring_description": "SA 25 3326",
+      "pigeon_team": {
+        "name": "DKR Golden Perch",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "RR 25 919",
+    "arrival_order": 80,
+    "arrival_time": "2026-05-26 13:32:38.690",
+    "speed": 942.5614,
+    "pigeon": {
+      "ring_description": "RR 25 919",
+      "pigeon_team": {
+        "name": "Buttigieg Family",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5315",
+    "arrival_order": 81,
+    "arrival_time": "2026-05-26 13:32:38.700",
+    "speed": 942.5564,
+    "pigeon": {
+      "ring_description": "CCF 25 5315",
+      "pigeon_team": {
+        "name": "Poi Weynton 5",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SRPF 25 783",
+    "arrival_order": 82,
+    "arrival_time": "2026-05-26 13:32:38.940",
+    "speed": 942.438,
+    "pigeon": {
+      "ring_description": "SRPF 25 783",
+      "pigeon_team": {
+        "name": "Basil George 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-3323",
+    "arrival_order": 83,
+    "arrival_time": "2026-05-26 13:32:39.420",
+    "speed": 942.2012,
+    "pigeon": {
+      "ring_description": "SA-2025-3323",
+      "pigeon_team": {
+        "name": "Fly to a shoebox",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 3252",
+    "arrival_order": 84,
+    "arrival_time": "2026-05-26 13:32:40.060",
+    "speed": 941.8857,
+    "pigeon": {
+      "ring_description": "SA 25 3252",
+      "pigeon_team": {
+        "name": "Watson & Klenner",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 11444",
+    "arrival_order": 85,
+    "arrival_time": "2026-05-26 13:32:40.280",
+    "speed": 941.7772,
+    "pigeon": {
+      "ring_description": "PRF 25 11444",
+      "pigeon_team": {
+        "name": "Deb & Des",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PARKES 25 1376",
+    "arrival_order": 86,
+    "arrival_time": "2026-05-26 13:32:40.440",
+    "speed": 941.6984,
+    "pigeon": {
+      "ring_description": "PARKES 25 1376",
+      "pigeon_team": {
+        "name": "Terry Townsend",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 16989",
+    "arrival_order": 87,
+    "arrival_time": "2026-05-26 13:32:40.830",
+    "speed": 941.5063,
+    "pigeon": {
+      "ring_description": "SA 25 16989",
+      "pigeon_team": {
+        "name": "Nel Family",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5170",
+    "arrival_order": 88,
+    "arrival_time": "2026-05-26 13:32:41.840",
+    "speed": 941.0092,
+    "pigeon": {
+      "ring_description": "BSN 25 5170",
+      "pigeon_team": {
+        "name": "Busselton 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--8003",
+    "arrival_order": 89,
+    "arrival_time": "2026-05-26 13:32:42.630",
+    "speed": 940.6207,
+    "pigeon": {
+      "ring_description": "SA-2025--8003",
+      "pigeon_team": {
+        "name": "Thalbourne",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1451",
+    "arrival_order": 90,
+    "arrival_time": "2026-05-26 13:32:42.760",
+    "speed": 940.5568,
+    "pigeon": {
+      "ring_description": "BH 25 1451",
+      "pigeon_team": {
+        "name": "L & S Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SGR 25 105",
+    "arrival_order": 91,
+    "arrival_time": "2026-05-26 13:32:43.090",
+    "speed": 940.3947,
+    "pigeon": {
+      "ring_description": "SGR 25 105",
+      "pigeon_team": {
+        "name": "Dream it 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "WPF 25 11271",
+    "arrival_order": 92,
+    "arrival_time": "2026-05-26 13:32:43.510",
+    "speed": 940.1884,
+    "pigeon": {
+      "ring_description": "WPF 25 11271",
+      "pigeon_team": {
+        "name": "FQ Bro 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 4030",
+    "arrival_order": 93,
+    "arrival_time": "2026-05-26 13:32:44.780",
+    "speed": 939.5651,
+    "pigeon": {
+      "ring_description": "GVPF 25 4030",
+      "pigeon_team": {
+        "name": "Red Dirt Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13782",
+    "arrival_order": 94,
+    "arrival_time": "2026-05-26 13:32:44.890",
+    "speed": 939.5111,
+    "pigeon": {
+      "ring_description": "VHA 25 13782",
+      "pigeon_team": {
+        "name": "Gazzola. Shore & Cini",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5313",
+    "arrival_order": 95,
+    "arrival_time": "2026-05-26 13:32:46.480",
+    "speed": 938.7321,
+    "pigeon": {
+      "ring_description": "CCF 25 5313",
+      "pigeon_team": {
+        "name": "Poi Weynton 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 17427",
+    "arrival_order": 96,
+    "arrival_time": "2026-05-26 13:32:47.010",
+    "speed": 938.4727,
+    "pigeon": {
+      "ring_description": "SA 25 17427",
+      "pigeon_team": {
+        "name": "Gold Rush",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-18149",
+    "arrival_order": 97,
+    "arrival_time": "2026-05-26 13:32:47.840",
+    "speed": 938.0667,
+    "pigeon": {
+      "ring_description": "SA-2025-18149",
+      "pigeon_team": {
+        "name": "Blaser & Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MWF 25 46",
+    "arrival_order": 98,
+    "arrival_time": "2026-05-26 13:32:48.290",
+    "speed": 937.8468,
+    "pigeon": {
+      "ring_description": "MWF 25 46",
+      "pigeon_team": {
+        "name": "Malcolm Fowler",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 2661",
+    "arrival_order": 99,
+    "arrival_time": "2026-05-26 13:32:48.340",
+    "speed": 937.8224,
+    "pigeon": {
+      "ring_description": "GIPPS 25 2661",
+      "pigeon_team": {
+        "name": "Don Zheng & Roy Xia 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "IHPS 25 1257",
+    "arrival_order": 100,
+    "arrival_time": "2026-05-26 13:32:48.460",
+    "speed": 937.7637,
+    "pigeon": {
+      "ring_description": "IHPS 25 1257",
+      "pigeon_team": {
+        "name": "B & M Malone",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GMPF 25 1060",
+    "arrival_order": 101,
+    "arrival_time": "2026-05-26 13:32:49.590",
+    "speed": 937.212,
+    "pigeon": {
+      "ring_description": "GMPF 25 1060",
+      "pigeon_team": {
+        "name": "Team Rohnfried",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 4421",
+    "arrival_order": 102,
+    "arrival_time": "2026-05-26 13:32:49.760",
+    "speed": 937.1291,
+    "pigeon": {
+      "ring_description": "GVPF 25 4421",
+      "pigeon_team": {
+        "name": "Damien Lappin",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MTD 25 449",
+    "arrival_order": 103,
+    "arrival_time": "2026-05-26 13:32:50.700",
+    "speed": 936.6707,
+    "pigeon": {
+      "ring_description": "MTD 25 449",
+      "pigeon_team": {
+        "name": "Brown Bros",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--2492",
+    "arrival_order": 104,
+    "arrival_time": "2026-05-26 13:32:51.700",
+    "speed": 936.1835,
+    "pigeon": {
+      "ring_description": "SA-2025--2492",
+      "pigeon_team": {
+        "name": "Rocky Varapodio & Vince & Mel Vallelonga",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 1966",
+    "arrival_order": 105,
+    "arrival_time": "2026-05-26 13:32:51.910",
+    "speed": 936.0813,
+    "pigeon": {
+      "ring_description": "SA 25 1966",
+      "pigeon_team": {
+        "name": "Yang & Gao SA",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-3328",
+    "arrival_order": 106,
+    "arrival_time": "2026-05-26 13:32:53.310",
+    "speed": 935.4002,
+    "pigeon": {
+      "ring_description": "SA-2025-3328",
+      "pigeon_team": {
+        "name": "PP Toe Dippers",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5318",
+    "arrival_order": 107,
+    "arrival_time": "2026-05-26 13:32:54.150",
+    "speed": 934.9921,
+    "pigeon": {
+      "ring_description": "CCF 25 5318",
+      "pigeon_team": {
+        "name": "Poi Weynton 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--18156",
+    "arrival_order": 108,
+    "arrival_time": "2026-05-26 13:32:54.710",
+    "speed": 934.7202,
+    "pigeon": {
+      "ring_description": "SA-2025--18156",
+      "pigeon_team": {
+        "name": "Ray White Mt Barker",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "ESWD 25 677",
+    "arrival_order": 109,
+    "arrival_time": "2026-05-26 13:32:57.790",
+    "speed": 933.2276,
+    "pigeon": {
+      "ring_description": "ESWD 25 677",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 9032",
+    "arrival_order": 110,
+    "arrival_time": "2026-05-26 13:32:58.680",
+    "speed": 932.7971,
+    "pigeon": {
+      "ring_description": "SA 25 9032",
+      "pigeon_team": {
+        "name": "Yang & Gao SA",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 2876",
+    "arrival_order": 111,
+    "arrival_time": "2026-05-26 13:32:58.780",
+    "speed": 932.7488,
+    "pigeon": {
+      "ring_description": "GIPPS 25 2876",
+      "pigeon_team": {
+        "name": "Don Zheng& Roy Xia 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BIHC 25 1854",
+    "arrival_order": 112,
+    "arrival_time": "2026-05-26 13:33:00.250",
+    "speed": 932.0388,
+    "pigeon": {
+      "ring_description": "BIHC 25 1854",
+      "pigeon_team": {
+        "name": "Viper",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SGR 25 92",
+    "arrival_order": 113,
+    "arrival_time": "2026-05-26 13:33:00.600",
+    "speed": 931.87,
+    "pigeon": {
+      "ring_description": "SGR 25 92",
+      "pigeon_team": {
+        "name": "Dream it 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 2893",
+    "arrival_order": 114,
+    "arrival_time": "2026-05-26 13:33:00.820",
+    "speed": 931.7638,
+    "pigeon": {
+      "ring_description": "GIPPS 25 2893",
+      "pigeon_team": {
+        "name": "Don Zheng& Roy Xia 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 4429",
+    "arrival_order": 115,
+    "arrival_time": "2026-05-26 13:33:01.350",
+    "speed": 931.5083,
+    "pigeon": {
+      "ring_description": "GVPF 25 4429",
+      "pigeon_team": {
+        "name": "Damien Lappin",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1129",
+    "arrival_order": 116,
+    "arrival_time": "2026-05-26 13:33:01.510",
+    "speed": 931.4311,
+    "pigeon": {
+      "ring_description": "BH 25 1129",
+      "pigeon_team": {
+        "name": "Bush Ducks 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 2214",
+    "arrival_order": 117,
+    "arrival_time": "2026-05-26 13:33:02.620",
+    "speed": 930.8965,
+    "pigeon": {
+      "ring_description": "CCF 25 2214",
+      "pigeon_team": {
+        "name": "Cini Bros",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 2834",
+    "arrival_order": 118,
+    "arrival_time": "2026-05-26 13:33:03.070",
+    "speed": 930.6799,
+    "pigeon": {
+      "ring_description": "PRF 25 2834",
+      "pigeon_team": {
+        "name": "David Chaffer",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 17409",
+    "arrival_order": 119,
+    "arrival_time": "2026-05-26 13:33:06.890",
+    "speed": 928.8453,
+    "pigeon": {
+      "ring_description": "SA 25 17409",
+      "pigeon_team": {
+        "name": "Gold Rush",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--14663",
+    "arrival_order": 120,
+    "arrival_time": "2026-05-26 13:33:07.740",
+    "speed": 928.4381,
+    "pigeon": {
+      "ring_description": "SA-2025--14663",
+      "pigeon_team": {
+        "name": "Country Boys",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--18162",
+    "arrival_order": 121,
+    "arrival_time": "2026-05-26 13:33:08.000",
+    "speed": 928.3136,
+    "pigeon": {
+      "ring_description": "SA-2025--18162",
+      "pigeon_team": {
+        "name": "Ray White Mt Barker",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "ESWD 25 678",
+    "arrival_order": 122,
+    "arrival_time": "2026-05-26 13:33:08.060",
+    "speed": 928.2848,
+    "pigeon": {
+      "ring_description": "ESWD 25 678",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "NB 25 434",
+    "arrival_order": 123,
+    "arrival_time": "2026-05-26 13:33:09.850",
+    "speed": 927.4287,
+    "pigeon": {
+      "ring_description": "NB 25 434",
+      "pigeon_team": {
+        "name": "Apex Racing Pigeons",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 20583",
+    "arrival_order": 124,
+    "arrival_time": "2026-05-26 13:33:09.990",
+    "speed": 927.3618,
+    "pigeon": {
+      "ring_description": "SA 25 20583",
+      "pigeon_team": {
+        "name": "Double Quaddy",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "DURAL 25 1748",
+    "arrival_order": 125,
+    "arrival_time": "2026-05-26 13:33:10.120",
+    "speed": 927.2997,
+    "pigeon": {
+      "ring_description": "DURAL 25 1748",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 22242",
+    "arrival_order": 126,
+    "arrival_time": "2026-05-26 13:33:10.830",
+    "speed": 926.9607,
+    "pigeon": {
+      "ring_description": "SA 25 22242",
+      "pigeon_team": {
+        "name": "Guts & Glory",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 3497",
+    "arrival_order": 127,
+    "arrival_time": "2026-05-26 13:33:13.050",
+    "speed": 925.9021,
+    "pigeon": {
+      "ring_description": "SA 25 3497",
+      "pigeon_team": {
+        "name": "Southside Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "LCP 25 881",
+    "arrival_order": 128,
+    "arrival_time": "2026-05-26 13:33:13.220",
+    "speed": 925.8212,
+    "pigeon": {
+      "ring_description": "LCP 25 881",
+      "pigeon_team": {
+        "name": "Triple A Angels",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 4777",
+    "arrival_order": 129,
+    "arrival_time": "2026-05-26 13:33:13.330",
+    "speed": 925.7688,
+    "pigeon": {
+      "ring_description": "SA 25 4777",
+      "pigeon_team": {
+        "name": "Ruby's Choice",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 2900",
+    "arrival_order": 130,
+    "arrival_time": "2026-05-26 13:33:14.570",
+    "speed": 925.1787,
+    "pigeon": {
+      "ring_description": "GIPPS 25 2900",
+      "pigeon_team": {
+        "name": "FQ Bro 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 15452",
+    "arrival_order": 131,
+    "arrival_time": "2026-05-26 13:33:15.120",
+    "speed": 924.9173,
+    "pigeon": {
+      "ring_description": "SA 25 15452",
+      "pigeon_team": {
+        "name": "Ray Mcilduff",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MILD 25 1238",
+    "arrival_order": 132,
+    "arrival_time": "2026-05-26 13:33:15.210",
+    "speed": 924.8745,
+    "pigeon": {
+      "ring_description": "MILD 25 1238",
+      "pigeon_team": {
+        "name": "Peter Perfect",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 7076",
+    "arrival_order": 133,
+    "arrival_time": "2026-05-26 13:33:16.360",
+    "speed": 924.3283,
+    "pigeon": {
+      "ring_description": "GIPPS 25 7076",
+      "pigeon_team": {
+        "name": "John & Jeff",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 7070",
+    "arrival_order": 134,
+    "arrival_time": "2026-05-26 13:33:16.370",
+    "speed": 924.3236,
+    "pigeon": {
+      "ring_description": "SA 25 7070",
+      "pigeon_team": {
+        "name": "Donnybrook Punters Club",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5165",
+    "arrival_order": 135,
+    "arrival_time": "2026-05-26 13:33:16.490",
+    "speed": 924.2666,
+    "pigeon": {
+      "ring_description": "BSN 25 5165",
+      "pigeon_team": {
+        "name": "Busselton 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MTD 25 445",
+    "arrival_order": 136,
+    "arrival_time": "2026-05-26 13:33:16.550",
+    "speed": 924.2381,
+    "pigeon": {
+      "ring_description": "MTD 25 445",
+      "pigeon_team": {
+        "name": "Brown Bros",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MILD 25 220",
+    "arrival_order": 137,
+    "arrival_time": "2026-05-26 13:33:16.860",
+    "speed": 924.0911,
+    "pigeon": {
+      "ring_description": "MILD 25 220",
+      "pigeon_team": {
+        "name": "China & Orca",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "DURAL 25 1628",
+    "arrival_order": 138,
+    "arrival_time": "2026-05-26 13:33:17.570",
+    "speed": 923.7543,
+    "pigeon": {
+      "ring_description": "DURAL 25 1628",
+      "pigeon_team": {
+        "name": "Eggleton Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 1237",
+    "arrival_order": 139,
+    "arrival_time": "2026-05-26 13:33:17.580",
+    "speed": 923.7496,
+    "pigeon": {
+      "ring_description": "SA 25 1237",
+      "pigeon_team": {
+        "name": "Burton & Bloomfield",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MKY 25 1632",
+    "arrival_order": 140,
+    "arrival_time": "2026-05-26 13:33:17.750",
+    "speed": 923.669,
+    "pigeon": {
+      "ring_description": "MKY 25 1632",
+      "pigeon_team": {
+        "name": "Whitsundays",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SGR 25 110",
+    "arrival_order": 141,
+    "arrival_time": "2026-05-26 13:33:18.370",
+    "speed": 923.3752,
+    "pigeon": {
+      "ring_description": "SGR 25 110",
+      "pigeon_team": {
+        "name": "Dream it 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "AUST 25 3377",
+    "arrival_order": 142,
+    "arrival_time": "2026-05-26 13:33:19.010",
+    "speed": 923.0722,
+    "pigeon": {
+      "ring_description": "AUST 25 3377",
+      "pigeon_team": {
+        "name": "Phoenix Lofts 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "LRPS 25 28",
+    "arrival_order": 143,
+    "arrival_time": "2026-05-26 13:33:19.240",
+    "speed": 922.9633,
+    "pigeon": {
+      "ring_description": "LRPS 25 28",
+      "pigeon_team": {
+        "name": "RMSP2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 7071",
+    "arrival_order": 144,
+    "arrival_time": "2026-05-26 13:33:19.900",
+    "speed": 922.6511,
+    "pigeon": {
+      "ring_description": "SA 25 7071",
+      "pigeon_team": {
+        "name": "Donnybrook Punters Club",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 19639",
+    "arrival_order": 145,
+    "arrival_time": "2026-05-26 13:33:23.750",
+    "speed": 920.8339,
+    "pigeon": {
+      "ring_description": "SA 25 19639",
+      "pigeon_team": {
+        "name": "Start The Carr",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PP 25 807",
+    "arrival_order": 146,
+    "arrival_time": "2026-05-26 13:33:26.590",
+    "speed": 919.498,
+    "pigeon": {
+      "ring_description": "PP 25 807",
+      "pigeon_team": {
+        "name": "D & B Cunningham",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-16876",
+    "arrival_order": 147,
+    "arrival_time": "2026-05-26 13:33:27.640",
+    "speed": 919.005,
+    "pigeon": {
+      "ring_description": "SA-2025-16876",
+      "pigeon_team": {
+        "name": "Nel Family Girls",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 18153",
+    "arrival_order": 148,
+    "arrival_time": "2026-05-26 13:33:27.880",
+    "speed": 918.8924,
+    "pigeon": {
+      "ring_description": "SA 25 18153",
+      "pigeon_team": {
+        "name": "Bronte Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 4066",
+    "arrival_order": 149,
+    "arrival_time": "2026-05-26 13:33:29.850",
+    "speed": 917.9692,
+    "pigeon": {
+      "ring_description": "GVPF 25 4066",
+      "pigeon_team": {
+        "name": "Markwood Maulers",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BIHC 25 1877",
+    "arrival_order": 150,
+    "arrival_time": "2026-05-26 13:33:30.890",
+    "speed": 917.4826,
+    "pigeon": {
+      "ring_description": "BIHC 25 1877",
+      "pigeon_team": {
+        "name": "Viper",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "ESWD 25 300",
+    "arrival_order": 151,
+    "arrival_time": "2026-05-26 13:33:31.800",
+    "speed": 917.0573,
+    "pigeon": {
+      "ring_description": "ESWD 25 300",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 17437",
+    "arrival_order": 152,
+    "arrival_time": "2026-05-26 13:33:35.270",
+    "speed": 915.4389,
+    "pigeon": {
+      "ring_description": "SA 25 17437",
+      "pigeon_team": {
+        "name": "Red Dust",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SRPF 25 778",
+    "arrival_order": 153,
+    "arrival_time": "2026-05-26 13:33:38.860",
+    "speed": 913.7705,
+    "pigeon": {
+      "ring_description": "SRPF 25 778",
+      "pigeon_team": {
+        "name": "Basil George",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5154",
+    "arrival_order": 154,
+    "arrival_time": "2026-05-26 13:33:39.590",
+    "speed": 913.432,
+    "pigeon": {
+      "ring_description": "BSN 25 5154",
+      "pigeon_team": {
+        "name": "Busselton 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-14857",
+    "arrival_order": 155,
+    "arrival_time": "2026-05-26 13:33:41.150",
+    "speed": 912.7095,
+    "pigeon": {
+      "ring_description": "SA-2025-14857",
+      "pigeon_team": {
+        "name": "Bryant Brigade",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 10540",
+    "arrival_order": 156,
+    "arrival_time": "2026-05-26 13:33:41.810",
+    "speed": 912.4041,
+    "pigeon": {
+      "ring_description": "PRF 25 10540",
+      "pigeon_team": {
+        "name": "Deb & Des",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--8001",
+    "arrival_order": 157,
+    "arrival_time": "2026-05-26 13:33:46.760",
+    "speed": 910.1205,
+    "pigeon": {
+      "ring_description": "SA-2025--8001",
+      "pigeon_team": {
+        "name": "Thalbourne",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 2546",
+    "arrival_order": 158,
+    "arrival_time": "2026-05-26 13:33:47.040",
+    "speed": 909.9917,
+    "pigeon": {
+      "ring_description": "BSN 25 2546",
+      "pigeon_team": {
+        "name": "Brennan Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--14650",
+    "arrival_order": 159,
+    "arrival_time": "2026-05-26 13:33:48.330",
+    "speed": 909.3986,
+    "pigeon": {
+      "ring_description": "SA-2025--14650",
+      "pigeon_team": {
+        "name": "Country Boys",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 622",
+    "arrival_order": 160,
+    "arrival_time": "2026-05-26 13:33:51.210",
+    "speed": 908.0773,
+    "pigeon": {
+      "ring_description": "VHA 25 622",
+      "pigeon_team": {
+        "name": "Jack Hao Loft",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "EUR 25 882",
+    "arrival_order": 161,
+    "arrival_time": "2026-05-26 13:33:51.270",
+    "speed": 908.0499,
+    "pigeon": {
+      "ring_description": "EUR 25 882",
+      "pigeon_team": {
+        "name": "A & J Syndicate",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5314",
+    "arrival_order": 162,
+    "arrival_time": "2026-05-26 13:34:01.030",
+    "speed": 903.6008,
+    "pigeon": {
+      "ring_description": "CCF 25 5314",
+      "pigeon_team": {
+        "name": "Poi Weynton 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 5424",
+    "arrival_order": 163,
+    "arrival_time": "2026-05-26 13:34:01.360",
+    "speed": 903.4512,
+    "pigeon": {
+      "ring_description": "SA 25 5424",
+      "pigeon_team": {
+        "name": "Group 1 Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 2888",
+    "arrival_order": 164,
+    "arrival_time": "2026-05-26 13:34:06.940",
+    "speed": 900.928,
+    "pigeon": {
+      "ring_description": "GIPPS 25 2888",
+      "pigeon_team": {
+        "name": "FQ Bro 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 3247",
+    "arrival_order": 165,
+    "arrival_time": "2026-05-26 13:34:08.690",
+    "speed": 900.1395,
+    "pigeon": {
+      "ring_description": "SA 25 3247",
+      "pigeon_team": {
+        "name": "South & West",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "DURAL 25 1732",
+    "arrival_order": 166,
+    "arrival_time": "2026-05-26 13:34:10.530",
+    "speed": 899.312,
+    "pigeon": {
+      "ring_description": "DURAL 25 1732",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 19642",
+    "arrival_order": 167,
+    "arrival_time": "2026-05-26 13:34:11.030",
+    "speed": 899.0874,
+    "pigeon": {
+      "ring_description": "SA 25 19642",
+      "pigeon_team": {
+        "name": "Start The Carr",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13770",
+    "arrival_order": 168,
+    "arrival_time": "2026-05-26 13:34:12.150",
+    "speed": 898.5847,
+    "pigeon": {
+      "ring_description": "VHA 25 13770",
+      "pigeon_team": {
+        "name": "Gazzola Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 1236",
+    "arrival_order": 169,
+    "arrival_time": "2026-05-26 13:34:13.310",
+    "speed": 898.0647,
+    "pigeon": {
+      "ring_description": "SA 25 1236",
+      "pigeon_team": {
+        "name": "Burton & Bloomfield",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5156",
+    "arrival_order": 170,
+    "arrival_time": "2026-05-26 13:34:14.740",
+    "speed": 897.4244,
+    "pigeon": {
+      "ring_description": "BSN 25 5156",
+      "pigeon_team": {
+        "name": "Busselton 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SGR 25 90",
+    "arrival_order": 171,
+    "arrival_time": "2026-05-26 13:34:16.140",
+    "speed": 896.7984,
+    "pigeon": {
+      "ring_description": "SGR 25 90",
+      "pigeon_team": {
+        "name": "Dream it 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "AUST 25 3435",
+    "arrival_order": 172,
+    "arrival_time": "2026-05-26 13:34:16.690",
+    "speed": 896.5528,
+    "pigeon": {
+      "ring_description": "AUST 25 3435",
+      "pigeon_team": {
+        "name": "Phoenix Lofts 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BATH 25 142",
+    "arrival_order": 173,
+    "arrival_time": "2026-05-26 13:34:18.630",
+    "speed": 895.6873,
+    "pigeon": {
+      "ring_description": "BATH 25 142",
+      "pigeon_team": {
+        "name": "Theo Stamatopoulos",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "QPF 25 6490",
+    "arrival_order": 174,
+    "arrival_time": "2026-05-26 13:36:14.680",
+    "speed": 846.7879,
+    "pigeon": {
+      "ring_description": "QPF 25 6490",
+      "pigeon_team": {
+        "name": "Greg Jenkins",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 5942",
+    "arrival_order": 175,
+    "arrival_time": "2026-05-26 13:36:15.010",
+    "speed": 846.6564,
+    "pigeon": {
+      "ring_description": "SA 25 5942",
+      "pigeon_team": {
+        "name": "Rayment & Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5152",
+    "arrival_order": 176,
+    "arrival_time": "2026-05-26 13:36:15.240",
+    "speed": 846.5648,
+    "pigeon": {
+      "ring_description": "BSN 25 5152",
+      "pigeon_team": {
+        "name": "Busselton 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 19632",
+    "arrival_order": 177,
+    "arrival_time": "2026-05-26 13:36:16.140",
+    "speed": 846.2066,
+    "pigeon": {
+      "ring_description": "SA 25 19632",
+      "pigeon_team": {
+        "name": "Frida Karlo's Eyebrow",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 19352",
+    "arrival_order": 178,
+    "arrival_time": "2026-05-26 13:36:16.390",
+    "speed": 846.1072,
+    "pigeon": {
+      "ring_description": "SA 25 19352",
+      "pigeon_team": {
+        "name": "Ruby's Choice",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5167",
+    "arrival_order": 179,
+    "arrival_time": "2026-05-26 13:36:16.480",
+    "speed": 846.0714,
+    "pigeon": {
+      "ring_description": "BSN 25 5167",
+      "pigeon_team": {
+        "name": "Busselton 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 18154",
+    "arrival_order": 180,
+    "arrival_time": "2026-05-26 13:36:16.610",
+    "speed": 846.0197,
+    "pigeon": {
+      "ring_description": "SA 25 18154",
+      "pigeon_team": {
+        "name": "Bronte Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BUN 25 5524",
+    "arrival_order": 181,
+    "arrival_time": "2026-05-26 13:36:17.190",
+    "speed": 845.7891,
+    "pigeon": {
+      "ring_description": "BUN 25 5524",
+      "pigeon_team": {
+        "name": "Bunbury Bullets",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "AUST 25 3396",
+    "arrival_order": 182,
+    "arrival_time": "2026-05-26 13:36:17.570",
+    "speed": 845.6382,
+    "pigeon": {
+      "ring_description": "AUST 25 3396",
+      "pigeon_team": {
+        "name": "Phoenix Lofts 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "LCP 25 885",
+    "arrival_order": 183,
+    "arrival_time": "2026-05-26 13:36:17.720",
+    "speed": 845.5786,
+    "pigeon": {
+      "ring_description": "LCP 25 885",
+      "pigeon_team": {
+        "name": "Triple A Angels",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 3242",
+    "arrival_order": 184,
+    "arrival_time": "2026-05-26 13:36:17.920",
+    "speed": 845.4991,
+    "pigeon": {
+      "ring_description": "GIPPS 25 3242",
+      "pigeon_team": {
+        "name": "Don Zheng& Roy Xia 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BEND 25 764",
+    "arrival_order": 185,
+    "arrival_time": "2026-05-26 13:36:18.190",
+    "speed": 845.3919,
+    "pigeon": {
+      "ring_description": "BEND 25 764",
+      "pigeon_team": {
+        "name": "Demons",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 11081",
+    "arrival_order": 186,
+    "arrival_time": "2026-05-26 13:36:18.350",
+    "speed": 845.3284,
+    "pigeon": {
+      "ring_description": "PRF 25 11081",
+      "pigeon_team": {
+        "name": "GT Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "ESWD 25 667",
+    "arrival_order": 187,
+    "arrival_time": "2026-05-26 13:36:18.380",
+    "speed": 845.3165,
+    "pigeon": {
+      "ring_description": "ESWD 25 667",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1108",
+    "arrival_order": 188,
+    "arrival_time": "2026-05-26 13:36:18.760",
+    "speed": 845.1657,
+    "pigeon": {
+      "ring_description": "BH 25 1108",
+      "pigeon_team": {
+        "name": "Grillett & McConachy 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GMPF 25 12067",
+    "arrival_order": 189,
+    "arrival_time": "2026-05-26 13:36:19.120",
+    "speed": 845.0228,
+    "pigeon": {
+      "ring_description": "GMPF 25 12067",
+      "pigeon_team": {
+        "name": "Gardiner Bros",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5326",
+    "arrival_order": 190,
+    "arrival_time": "2026-05-26 13:36:19.960",
+    "speed": 844.6897,
+    "pigeon": {
+      "ring_description": "CCF 25 5326",
+      "pigeon_team": {
+        "name": "Poi Weynton 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 2891",
+    "arrival_order": 191,
+    "arrival_time": "2026-05-26 13:36:19.980",
+    "speed": 844.6818,
+    "pigeon": {
+      "ring_description": "GIPPS 25 2891",
+      "pigeon_team": {
+        "name": "FQ Bro 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 13211",
+    "arrival_order": 192,
+    "arrival_time": "2026-05-26 13:36:20.590",
+    "speed": 844.4401,
+    "pigeon": {
+      "ring_description": "PRF 25 13211",
+      "pigeon_team": {
+        "name": "GT Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-3439",
+    "arrival_order": 193,
+    "arrival_time": "2026-05-26 13:36:22.340",
+    "speed": 843.7474,
+    "pigeon": {
+      "ring_description": "SA-2025-3439",
+      "pigeon_team": {
+        "name": "Southside Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 151",
+    "arrival_order": 194,
+    "arrival_time": "2026-05-26 13:36:22.600",
+    "speed": 843.6445,
+    "pigeon": {
+      "ring_description": "GVPF 25 151",
+      "pigeon_team": {
+        "name": "Berrigan Boys 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 6356",
+    "arrival_order": 195,
+    "arrival_time": "2026-05-26 13:36:22.740",
+    "speed": 843.5892,
+    "pigeon": {
+      "ring_description": "GVPF 25 6356",
+      "pigeon_team": {
+        "name": "Berrigan Boys 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5294",
+    "arrival_order": 196,
+    "arrival_time": "2026-05-26 13:36:23.920",
+    "speed": 843.1229,
+    "pigeon": {
+      "ring_description": "CCF 25 5294",
+      "pigeon_team": {
+        "name": "Poi Weynton 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--15437",
+    "arrival_order": 197,
+    "arrival_time": "2026-05-26 13:36:25.340",
+    "speed": 842.5625,
+    "pigeon": {
+      "ring_description": "SA-2025--15437",
+      "pigeon_team": {
+        "name": "Ray Mcilduff",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PP 25 274",
+    "arrival_order": 198,
+    "arrival_time": "2026-05-26 13:36:25.450",
+    "speed": 842.5191,
+    "pigeon": {
+      "ring_description": "PP 25 274",
+      "pigeon_team": {
+        "name": "D & B Cunningham",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13777",
+    "arrival_order": 199,
+    "arrival_time": "2026-05-26 13:36:25.750",
+    "speed": 842.4008,
+    "pigeon": {
+      "ring_description": "VHA 25 13777",
+      "pigeon_team": {
+        "name": "Gazzola Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 7078",
+    "arrival_order": 200,
+    "arrival_time": "2026-05-26 13:36:25.880",
+    "speed": 842.3496,
+    "pigeon": {
+      "ring_description": "GIPPS 25 7078",
+      "pigeon_team": {
+        "name": "John & Jeff",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 7197",
+    "arrival_order": 201,
+    "arrival_time": "2026-05-26 13:36:27.010",
+    "speed": 841.9044,
+    "pigeon": {
+      "ring_description": "GIPPS 25 7197",
+      "pigeon_team": {
+        "name": "John & Jeff",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GMPF 25 13232",
+    "arrival_order": 202,
+    "arrival_time": "2026-05-26 13:36:27.150",
+    "speed": 841.8493,
+    "pigeon": {
+      "ring_description": "GMPF 25 13232",
+      "pigeon_team": {
+        "name": "Macdiarmid Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "DURAL 25 1633",
+    "arrival_order": 203,
+    "arrival_time": "2026-05-26 13:36:28.390",
+    "speed": 841.3613,
+    "pigeon": {
+      "ring_description": "DURAL 25 1633",
+      "pigeon_team": {
+        "name": "Eggleton Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13759",
+    "arrival_order": 204,
+    "arrival_time": "2026-05-26 13:36:28.550",
+    "speed": 841.2984,
+    "pigeon": {
+      "ring_description": "VHA 25 13759",
+      "pigeon_team": {
+        "name": "Gazzola. Shore & Cini",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "WV 25 1072",
+    "arrival_order": 205,
+    "arrival_time": "2026-05-26 13:36:28.890",
+    "speed": 841.1647,
+    "pigeon": {
+      "ring_description": "WV 25 1072",
+      "pigeon_team": {
+        "name": "Pegasus Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--15436",
+    "arrival_order": 206,
+    "arrival_time": "2026-05-26 13:36:28.960",
+    "speed": 841.1372,
+    "pigeon": {
+      "ring_description": "SA-2025--15436",
+      "pigeon_team": {
+        "name": "Ray Mcilduff",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 4784",
+    "arrival_order": 207,
+    "arrival_time": "2026-05-26 13:36:30.590",
+    "speed": 840.497,
+    "pigeon": {
+      "ring_description": "SA 25 4784",
+      "pigeon_team": {
+        "name": "Heelers",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SGR 25 580",
+    "arrival_order": 208,
+    "arrival_time": "2026-05-26 13:36:30.610",
+    "speed": 840.4892,
+    "pigeon": {
+      "ring_description": "SGR 25 580",
+      "pigeon_team": {
+        "name": "Deb & Des",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "QPF 25 6488",
+    "arrival_order": 209,
+    "arrival_time": "2026-05-26 13:36:30.630",
+    "speed": 840.4813,
+    "pigeon": {
+      "ring_description": "QPF 25 6488",
+      "pigeon_team": {
+        "name": "Greg Jenkins",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 6374",
+    "arrival_order": 210,
+    "arrival_time": "2026-05-26 13:36:30.750",
+    "speed": 840.4342,
+    "pigeon": {
+      "ring_description": "GVPF 25 6374",
+      "pigeon_team": {
+        "name": "Berrigan Boys 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5324",
+    "arrival_order": 211,
+    "arrival_time": "2026-05-26 13:36:30.760",
+    "speed": 840.4303,
+    "pigeon": {
+      "ring_description": "CCF 25 5324",
+      "pigeon_team": {
+        "name": "Poi Weynton 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--16041",
+    "arrival_order": 212,
+    "arrival_time": "2026-05-26 13:36:30.960",
+    "speed": 840.3518,
+    "pigeon": {
+      "ring_description": "SA-2025--16041",
+      "pigeon_team": {
+        "name": "Ian Sanders",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-1024",
+    "arrival_order": 213,
+    "arrival_time": "2026-05-26 13:36:32.990",
+    "speed": 839.5562,
+    "pigeon": {
+      "ring_description": "SA-2025-1024",
+      "pigeon_team": {
+        "name": "Pipe Dream",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 11251",
+    "arrival_order": 214,
+    "arrival_time": "2026-05-26 13:36:34.800",
+    "speed": 838.848,
+    "pigeon": {
+      "ring_description": "PRF 25 11251",
+      "pigeon_team": {
+        "name": "Nigel Coffey",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-2991",
+    "arrival_order": 215,
+    "arrival_time": "2026-05-26 13:36:35.570",
+    "speed": 838.5471,
+    "pigeon": {
+      "ring_description": "SA-2025-2991",
+      "pigeon_team": {
+        "name": "Geoff Cawte (B)",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-13828",
+    "arrival_order": 216,
+    "arrival_time": "2026-05-26 13:36:36.040",
+    "speed": 838.3635,
+    "pigeon": {
+      "ring_description": "SA-2025-13828",
+      "pigeon_team": {
+        "name": "Colegate & Moore",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 2875",
+    "arrival_order": 217,
+    "arrival_time": "2026-05-26 13:36:36.340",
+    "speed": 838.2464,
+    "pigeon": {
+      "ring_description": "GIPPS 25 2875",
+      "pigeon_team": {
+        "name": "FQ Bro 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--8009",
+    "arrival_order": 218,
+    "arrival_time": "2026-05-26 13:36:37.150",
+    "speed": 837.9303,
+    "pigeon": {
+      "ring_description": "SA-2025--8009",
+      "pigeon_team": {
+        "name": "Thalbourne",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "RRPF 25 630",
+    "arrival_order": 219,
+    "arrival_time": "2026-05-26 13:36:37.680",
+    "speed": 837.7236,
+    "pigeon": {
+      "ring_description": "RRPF 25 630",
+      "pigeon_team": {
+        "name": "Suttos",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 18167",
+    "arrival_order": 220,
+    "arrival_time": "2026-05-26 13:36:38.640",
+    "speed": 837.3495,
+    "pigeon": {
+      "ring_description": "SA 25 18167",
+      "pigeon_team": {
+        "name": "Bronte Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--18148",
+    "arrival_order": 221,
+    "arrival_time": "2026-05-26 13:36:38.650",
+    "speed": 837.3456,
+    "pigeon": {
+      "ring_description": "SA-2025--18148",
+      "pigeon_team": {
+        "name": "Blaser & Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GMPF 25 1089",
+    "arrival_order": 222,
+    "arrival_time": "2026-05-26 13:36:38.700",
+    "speed": 837.3261,
+    "pigeon": {
+      "ring_description": "GMPF 25 1089",
+      "pigeon_team": {
+        "name": "Team Rohnfried 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 3236",
+    "arrival_order": 223,
+    "arrival_time": "2026-05-26 13:36:38.990",
+    "speed": 837.2132,
+    "pigeon": {
+      "ring_description": "GIPPS 25 3236",
+      "pigeon_team": {
+        "name": "FQ Bro 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BATH 25 119",
+    "arrival_order": 224,
+    "arrival_time": "2026-05-26 13:36:39.330",
+    "speed": 837.0808,
+    "pigeon": {
+      "ring_description": "BATH 25 119",
+      "pigeon_team": {
+        "name": "Theo Stamatopoulos",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "DURAL 25 1734",
+    "arrival_order": 225,
+    "arrival_time": "2026-05-26 13:36:39.900",
+    "speed": 836.859,
+    "pigeon": {
+      "ring_description": "DURAL 25 1734",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 15281",
+    "arrival_order": 226,
+    "arrival_time": "2026-05-26 13:36:40.030",
+    "speed": 836.8084,
+    "pigeon": {
+      "ring_description": "SA 25 15281",
+      "pigeon_team": {
+        "name": "Old Friends",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 8886",
+    "arrival_order": 227,
+    "arrival_time": "2026-05-26 13:36:40.050",
+    "speed": 836.8006,
+    "pigeon": {
+      "ring_description": "SA 25 8886",
+      "pigeon_team": {
+        "name": "Birdman",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5151",
+    "arrival_order": 228,
+    "arrival_time": "2026-05-26 13:36:40.600",
+    "speed": 836.5867,
+    "pigeon": {
+      "ring_description": "BSN 25 5151",
+      "pigeon_team": {
+        "name": "Busselton 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "QPF 25 319",
+    "arrival_order": 229,
+    "arrival_time": "2026-05-26 13:36:41.040",
+    "speed": 836.4157,
+    "pigeon": {
+      "ring_description": "QPF 25 319",
+      "pigeon_team": {
+        "name": "Big Red Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-2934",
+    "arrival_order": 230,
+    "arrival_time": "2026-05-26 13:36:41.640",
+    "speed": 836.1825,
+    "pigeon": {
+      "ring_description": "SA-2025-2934",
+      "pigeon_team": {
+        "name": "Geoff Cawte (A)",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "ESWD 25 679",
+    "arrival_order": 231,
+    "arrival_time": "2026-05-26 13:36:41.850",
+    "speed": 836.101,
+    "pigeon": {
+      "ring_description": "ESWD 25 679",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 4428",
+    "arrival_order": 232,
+    "arrival_time": "2026-05-26 13:36:41.870",
+    "speed": 836.0932,
+    "pigeon": {
+      "ring_description": "GVPF 25 4428",
+      "pigeon_team": {
+        "name": "Damien Lappin",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 162",
+    "arrival_order": 233,
+    "arrival_time": "2026-05-26 13:36:42.430",
+    "speed": 835.8758,
+    "pigeon": {
+      "ring_description": "GVPF 25 162",
+      "pigeon_team": {
+        "name": "Berrigan Boys 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-2987",
+    "arrival_order": 234,
+    "arrival_time": "2026-05-26 13:36:42.440",
+    "speed": 835.8719,
+    "pigeon": {
+      "ring_description": "SA-2025-2987",
+      "pigeon_team": {
+        "name": "Geoff Cawte (A)",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "ESWD 25 630",
+    "arrival_order": 235,
+    "arrival_time": "2026-05-26 13:36:43.020",
+    "speed": 835.6468,
+    "pigeon": {
+      "ring_description": "ESWD 25 630",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 15451",
+    "arrival_order": 236,
+    "arrival_time": "2026-05-26 13:36:43.130",
+    "speed": 835.6042,
+    "pigeon": {
+      "ring_description": "SA 25 15451",
+      "pigeon_team": {
+        "name": "Ray Mcilduff",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1122",
+    "arrival_order": 237,
+    "arrival_time": "2026-05-26 13:36:43.770",
+    "speed": 835.356,
+    "pigeon": {
+      "ring_description": "BH 25 1122",
+      "pigeon_team": {
+        "name": "Grillett & McConachy 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 18158",
+    "arrival_order": 238,
+    "arrival_time": "2026-05-26 13:36:43.780",
+    "speed": 835.3521,
+    "pigeon": {
+      "ring_description": "SA 25 18158",
+      "pigeon_team": {
+        "name": "Bronte Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BALWEST 25 1817",
+    "arrival_order": 239,
+    "arrival_time": "2026-05-26 13:36:43.820",
+    "speed": 835.3366,
+    "pigeon": {
+      "ring_description": "BALWEST 25 1817",
+      "pigeon_team": {
+        "name": "A & J Syndicate 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 16998",
+    "arrival_order": 240,
+    "arrival_time": "2026-05-26 13:36:44.130",
+    "speed": 835.2164,
+    "pigeon": {
+      "ring_description": "SA 25 16998",
+      "pigeon_team": {
+        "name": "Nel Family",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MKY 25 1616",
+    "arrival_order": 241,
+    "arrival_time": "2026-05-26 13:36:44.330",
+    "speed": 835.1389,
+    "pigeon": {
+      "ring_description": "MKY 25 1616",
+      "pigeon_team": {
+        "name": "Whitsundays",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 7488",
+    "arrival_order": 242,
+    "arrival_time": "2026-05-26 13:36:44.710",
+    "speed": 834.9917,
+    "pigeon": {
+      "ring_description": "VHA 25 7488",
+      "pigeon_team": {
+        "name": "Araco",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-7226",
+    "arrival_order": 243,
+    "arrival_time": "2026-05-26 13:36:44.720",
+    "speed": 834.9878,
+    "pigeon": {
+      "ring_description": "SA-2025-7226",
+      "pigeon_team": {
+        "name": "Lucky 13 Again",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-3316",
+    "arrival_order": 244,
+    "arrival_time": "2026-05-26 13:36:45.350",
+    "speed": 834.7439,
+    "pigeon": {
+      "ring_description": "SA-2025-3316",
+      "pigeon_team": {
+        "name": "DKR Golden Perch",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5177",
+    "arrival_order": 245,
+    "arrival_time": "2026-05-26 13:36:45.420",
+    "speed": 834.7168,
+    "pigeon": {
+      "ring_description": "BSN 25 5177",
+      "pigeon_team": {
+        "name": "Busselton 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5155",
+    "arrival_order": 246,
+    "arrival_time": "2026-05-26 13:36:46.200",
+    "speed": 834.415,
+    "pigeon": {
+      "ring_description": "BSN 25 5155",
+      "pigeon_team": {
+        "name": "Busselton 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 4040",
+    "arrival_order": 247,
+    "arrival_time": "2026-05-26 13:36:46.590",
+    "speed": 834.2642,
+    "pigeon": {
+      "ring_description": "GVPF 25 4040",
+      "pigeon_team": {
+        "name": "Red Dirt Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 7485",
+    "arrival_order": 248,
+    "arrival_time": "2026-05-26 13:36:47.300",
+    "speed": 833.9897,
+    "pigeon": {
+      "ring_description": "VHA 25 7485",
+      "pigeon_team": {
+        "name": "Araco",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 5943",
+    "arrival_order": 249,
+    "arrival_time": "2026-05-26 13:36:47.760",
+    "speed": 833.812,
+    "pigeon": {
+      "ring_description": "SA 25 5943",
+      "pigeon_team": {
+        "name": "Rayment & Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--1001",
+    "arrival_order": 250,
+    "arrival_time": "2026-05-26 13:36:48.070",
+    "speed": 833.6923,
+    "pigeon": {
+      "ring_description": "SA-2025--1001",
+      "pigeon_team": {
+        "name": "Central Districts RPC",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GMPF 25 1082",
+    "arrival_order": 251,
+    "arrival_time": "2026-05-26 13:36:48.110",
+    "speed": 833.6768,
+    "pigeon": {
+      "ring_description": "GMPF 25 1082",
+      "pigeon_team": {
+        "name": "Team Rohnfried 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "KYAB 25 1128",
+    "arrival_order": 252,
+    "arrival_time": "2026-05-26 13:36:48.380",
+    "speed": 833.5726,
+    "pigeon": {
+      "ring_description": "KYAB 25 1128",
+      "pigeon_team": {
+        "name": "Beavo's Loft",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 13209",
+    "arrival_order": 253,
+    "arrival_time": "2026-05-26 13:36:50.040",
+    "speed": 832.9323,
+    "pigeon": {
+      "ring_description": "PRF 25 13209",
+      "pigeon_team": {
+        "name": "GT Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BUN 25 5531",
+    "arrival_order": 254,
+    "arrival_time": "2026-05-26 13:36:50.570",
+    "speed": 832.7281,
+    "pigeon": {
+      "ring_description": "BUN 25 5531",
+      "pigeon_team": {
+        "name": "Bunbury Bullets",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "LRPS 25 19",
+    "arrival_order": 255,
+    "arrival_time": "2026-05-26 13:36:50.820",
+    "speed": 832.6318,
+    "pigeon": {
+      "ring_description": "LRPS 25 19",
+      "pigeon_team": {
+        "name": "RMSP2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1137",
+    "arrival_order": 256,
+    "arrival_time": "2026-05-26 13:36:50.860",
+    "speed": 832.6164,
+    "pigeon": {
+      "ring_description": "BH 25 1137",
+      "pigeon_team": {
+        "name": "Bush Ducks 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--18163",
+    "arrival_order": 257,
+    "arrival_time": "2026-05-26 13:36:51.520",
+    "speed": 832.3622,
+    "pigeon": {
+      "ring_description": "SA-2025--18163",
+      "pigeon_team": {
+        "name": "Ray White Mt Barker",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5317",
+    "arrival_order": 258,
+    "arrival_time": "2026-05-26 13:36:51.530",
+    "speed": 832.3584,
+    "pigeon": {
+      "ring_description": "CCF 25 5317",
+      "pigeon_team": {
+        "name": "Poi Weynton 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MILD 25 1236",
+    "arrival_order": 259,
+    "arrival_time": "2026-05-26 13:36:51.870",
+    "speed": 832.2275,
+    "pigeon": {
+      "ring_description": "MILD 25 1236",
+      "pigeon_team": {
+        "name": "Peter Perfect",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "IHPS 25 1260",
+    "arrival_order": 260,
+    "arrival_time": "2026-05-26 13:36:51.880",
+    "speed": 832.2237,
+    "pigeon": {
+      "ring_description": "IHPS 25 1260",
+      "pigeon_team": {
+        "name": "B & M Malone",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VRPU 25 4069",
+    "arrival_order": 261,
+    "arrival_time": "2026-05-26 13:36:52.130",
+    "speed": 832.1275,
+    "pigeon": {
+      "ring_description": "VRPU 25 4069",
+      "pigeon_team": {
+        "name": "Cini, Gazzola & Shore",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--14652",
+    "arrival_order": 262,
+    "arrival_time": "2026-05-26 13:36:53.130",
+    "speed": 831.743,
+    "pigeon": {
+      "ring_description": "SA-2025--14652",
+      "pigeon_team": {
+        "name": "Country Boys",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MTD 25 450",
+    "arrival_order": 263,
+    "arrival_time": "2026-05-26 13:36:53.370",
+    "speed": 831.6508,
+    "pigeon": {
+      "ring_description": "MTD 25 450",
+      "pigeon_team": {
+        "name": "Brown Bros",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 1826",
+    "arrival_order": 264,
+    "arrival_time": "2026-05-26 13:36:53.900",
+    "speed": 831.4472,
+    "pigeon": {
+      "ring_description": "PRF 25 1826",
+      "pigeon_team": {
+        "name": "Ray Olds",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 9405",
+    "arrival_order": 265,
+    "arrival_time": "2026-05-26 13:36:54.090",
+    "speed": 831.3742,
+    "pigeon": {
+      "ring_description": "SA 25 9405",
+      "pigeon_team": {
+        "name": "Baltic",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 2077",
+    "arrival_order": 266,
+    "arrival_time": "2026-05-26 13:36:54.410",
+    "speed": 831.2514,
+    "pigeon": {
+      "ring_description": "GVPF 25 2077",
+      "pigeon_team": {
+        "name": "Sofra 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5159",
+    "arrival_order": 267,
+    "arrival_time": "2026-05-26 13:36:54.620",
+    "speed": 831.1708,
+    "pigeon": {
+      "ring_description": "BSN 25 5159",
+      "pigeon_team": {
+        "name": "Busselton 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 5965",
+    "arrival_order": 268,
+    "arrival_time": "2026-05-26 13:36:54.880",
+    "speed": 831.071,
+    "pigeon": {
+      "ring_description": "SA 25 5965",
+      "pigeon_team": {
+        "name": "Rayment & Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "IHPS 25 1265",
+    "arrival_order": 269,
+    "arrival_time": "2026-05-26 13:36:55.430",
+    "speed": 830.86,
+    "pigeon": {
+      "ring_description": "IHPS 25 1265",
+      "pigeon_team": {
+        "name": "B & M Malone",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MILD 25 217",
+    "arrival_order": 270,
+    "arrival_time": "2026-05-26 13:36:55.660",
+    "speed": 830.7718,
+    "pigeon": {
+      "ring_description": "MILD 25 217",
+      "pigeon_team": {
+        "name": "China & Orca",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VASSE 25 2549",
+    "arrival_order": 271,
+    "arrival_time": "2026-05-26 13:36:55.810",
+    "speed": 830.7143,
+    "pigeon": {
+      "ring_description": "VASSE 25 2549",
+      "pigeon_team": {
+        "name": "Brennan Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--17756",
+    "arrival_order": 272,
+    "arrival_time": "2026-05-26 13:36:56.250",
+    "speed": 830.5456,
+    "pigeon": {
+      "ring_description": "SA-2025--17756",
+      "pigeon_team": {
+        "name": "Find The Treasure",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-3314",
+    "arrival_order": 273,
+    "arrival_time": "2026-05-26 13:36:56.320",
+    "speed": 830.5188,
+    "pigeon": {
+      "ring_description": "SA-2025-3314",
+      "pigeon_team": {
+        "name": "DKR Golden Perch",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 18166",
+    "arrival_order": 274,
+    "arrival_time": "2026-05-26 13:36:58.210",
+    "speed": 829.7952,
+    "pigeon": {
+      "ring_description": "SA 25 18166",
+      "pigeon_team": {
+        "name": "Blaser & Andrewartha",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SPF 25 1488",
+    "arrival_order": 275,
+    "arrival_time": "2026-05-26 13:37:00.210",
+    "speed": 829.0308,
+    "pigeon": {
+      "ring_description": "SPF 25 1488",
+      "pigeon_team": {
+        "name": "G & S Smith",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VASSE 25 5273",
+    "arrival_order": 276,
+    "arrival_time": "2026-05-26 13:37:01.120",
+    "speed": 828.6835,
+    "pigeon": {
+      "ring_description": "VASSE 25 5273",
+      "pigeon_team": {
+        "name": "Busselton 5",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 17584",
+    "arrival_order": 277,
+    "arrival_time": "2026-05-26 13:37:01.920",
+    "speed": 828.3784,
+    "pigeon": {
+      "ring_description": "SA 25 17584",
+      "pigeon_team": {
+        "name": "Phil Carter",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BATH 25 151",
+    "arrival_order": 278,
+    "arrival_time": "2026-05-26 13:37:02.100",
+    "speed": 828.3098,
+    "pigeon": {
+      "ring_description": "BATH 25 151",
+      "pigeon_team": {
+        "name": "Theo Stamatopoulos",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MBRA 25 558",
+    "arrival_order": 279,
+    "arrival_time": "2026-05-26 13:37:03.980",
+    "speed": 827.5938,
+    "pigeon": {
+      "ring_description": "MBRA 25 558",
+      "pigeon_team": {
+        "name": "Veritas Vincit 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1450",
+    "arrival_order": 280,
+    "arrival_time": "2026-05-26 13:37:05.230",
+    "speed": 827.1185,
+    "pigeon": {
+      "ring_description": "BH 25 1450",
+      "pigeon_team": {
+        "name": "L & S Racing",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--8020",
+    "arrival_order": 281,
+    "arrival_time": "2026-05-26 13:37:05.570",
+    "speed": 826.9893,
+    "pigeon": {
+      "ring_description": "SA-2025--8020",
+      "pigeon_team": {
+        "name": "Thalbourne",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 3249",
+    "arrival_order": 282,
+    "arrival_time": "2026-05-26 13:37:06.580",
+    "speed": 826.6057,
+    "pigeon": {
+      "ring_description": "SA 25 3249",
+      "pigeon_team": {
+        "name": "South & West",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 11246",
+    "arrival_order": 283,
+    "arrival_time": "2026-05-26 13:37:08.180",
+    "speed": 825.9988,
+    "pigeon": {
+      "ring_description": "PRF 25 11246",
+      "pigeon_team": {
+        "name": "Nigel Coffey",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-8243",
+    "arrival_order": 284,
+    "arrival_time": "2026-05-26 13:37:08.570",
+    "speed": 825.851,
+    "pigeon": {
+      "ring_description": "SA-2025-8243",
+      "pigeon_team": {
+        "name": "W March",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VASSE 25 5322",
+    "arrival_order": 285,
+    "arrival_time": "2026-05-26 13:37:10.560",
+    "speed": 825.0976,
+    "pigeon": {
+      "ring_description": "VASSE 25 5322",
+      "pigeon_team": {
+        "name": "Busselton 5",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 549",
+    "arrival_order": 286,
+    "arrival_time": "2026-05-26 13:37:10.840",
+    "speed": 824.9918,
+    "pigeon": {
+      "ring_description": "SA 25 549",
+      "pigeon_team": {
+        "name": "Cornish Raiders",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BUN 25 5527",
+    "arrival_order": 287,
+    "arrival_time": "2026-05-26 13:37:11.850",
+    "speed": 824.61,
+    "pigeon": {
+      "ring_description": "BUN 25 5527",
+      "pigeon_team": {
+        "name": "Bunbury Bullets",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13807",
+    "arrival_order": 288,
+    "arrival_time": "2026-05-26 13:37:27.370",
+    "speed": 818.7885,
+    "pigeon": {
+      "ring_description": "VHA 25 13807",
+      "pigeon_team": {
+        "name": "Gazzola. Shore & Cini",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 6357",
+    "arrival_order": 289,
+    "arrival_time": "2026-05-26 13:38:02.610",
+    "speed": 805.8703,
+    "pigeon": {
+      "ring_description": "GVPF 25 6357",
+      "pigeon_team": {
+        "name": "Berrigan Boys 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 3869",
+    "arrival_order": 290,
+    "arrival_time": "2026-05-26 13:38:03.980",
+    "speed": 805.3763,
+    "pigeon": {
+      "ring_description": "VHA 25 3869",
+      "pigeon_team": {
+        "name": "S & R Kearsey",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1114",
+    "arrival_order": 291,
+    "arrival_time": "2026-05-26 13:38:04.090",
+    "speed": 805.3367,
+    "pigeon": {
+      "ring_description": "BH 25 1114",
+      "pigeon_team": {
+        "name": "Bush Ducks 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-16881",
+    "arrival_order": 292,
+    "arrival_time": "2026-05-26 13:38:04.230",
+    "speed": 805.2863,
+    "pigeon": {
+      "ring_description": "SA-2025-16881",
+      "pigeon_team": {
+        "name": "Nel Family Girls",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MILD 25 219",
+    "arrival_order": 293,
+    "arrival_time": "2026-05-26 13:38:05.200",
+    "speed": 804.9369,
+    "pigeon": {
+      "ring_description": "MILD 25 219",
+      "pigeon_team": {
+        "name": "China & Orca",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 17429",
+    "arrival_order": 294,
+    "arrival_time": "2026-05-26 13:38:10.160",
+    "speed": 803.1555,
+    "pigeon": {
+      "ring_description": "SA 25 17429",
+      "pigeon_team": {
+        "name": "Gold Rush",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1111",
+    "arrival_order": 295,
+    "arrival_time": "2026-05-26 13:38:11.140",
+    "speed": 802.8045,
+    "pigeon": {
+      "ring_description": "BH 25 1111",
+      "pigeon_team": {
+        "name": "Grillett & McConachy 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PRF 25 2835",
+    "arrival_order": 296,
+    "arrival_time": "2026-05-26 13:38:14.650",
+    "speed": 801.5497,
+    "pigeon": {
+      "ring_description": "PRF 25 2835",
+      "pigeon_team": {
+        "name": "David Chaffer",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BEND 25 799",
+    "arrival_order": 297,
+    "arrival_time": "2026-05-26 13:38:15.600",
+    "speed": 801.2107,
+    "pigeon": {
+      "ring_description": "BEND 25 799",
+      "pigeon_team": {
+        "name": "Demons",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-7298",
+    "arrival_order": 298,
+    "arrival_time": "2026-05-26 13:38:16.580",
+    "speed": 800.8614,
+    "pigeon": {
+      "ring_description": "SA-2025-7298",
+      "pigeon_team": {
+        "name": "Lucky 13 Again",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MILD 25 1070",
+    "arrival_order": 299,
+    "arrival_time": "2026-05-26 13:38:27.240",
+    "speed": 797.0809,
+    "pigeon": {
+      "ring_description": "MILD 25 1070",
+      "pigeon_team": {
+        "name": "Kelly & Warburton",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13840",
+    "arrival_order": 300,
+    "arrival_time": "2026-05-26 13:38:28.290",
+    "speed": 796.7105,
+    "pigeon": {
+      "ring_description": "VHA 25 13840",
+      "pigeon_team": {
+        "name": "Fineblend",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "AUST 25 3394",
+    "arrival_order": 301,
+    "arrival_time": "2026-05-26 13:38:28.940",
+    "speed": 796.4813,
+    "pigeon": {
+      "ring_description": "AUST 25 3394",
+      "pigeon_team": {
+        "name": "Phoenix Lofts 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 5266",
+    "arrival_order": 302,
+    "arrival_time": "2026-05-26 13:38:29.070",
+    "speed": 796.4355,
+    "pigeon": {
+      "ring_description": "CCF 25 5266",
+      "pigeon_team": {
+        "name": "Poi Weynton 5",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 6372",
+    "arrival_order": 303,
+    "arrival_time": "2026-05-26 13:38:29.170",
+    "speed": 796.4003,
+    "pigeon": {
+      "ring_description": "GVPF 25 6372",
+      "pigeon_team": {
+        "name": "Berrigan Boys 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PP 25 285",
+    "arrival_order": 304,
+    "arrival_time": "2026-05-26 13:38:29.240",
+    "speed": 796.3756,
+    "pigeon": {
+      "ring_description": "PP 25 285",
+      "pigeon_team": {
+        "name": "D & B Cunningham",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SGR 25 107",
+    "arrival_order": 305,
+    "arrival_time": "2026-05-26 13:38:31.230",
+    "speed": 795.6751,
+    "pigeon": {
+      "ring_description": "SGR 25 107",
+      "pigeon_team": {
+        "name": "Dream it 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 662",
+    "arrival_order": 306,
+    "arrival_time": "2026-05-26 13:38:32.140",
+    "speed": 795.3551,
+    "pigeon": {
+      "ring_description": "VHA 25 662",
+      "pigeon_team": {
+        "name": "Jack Hao Loft",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--14044",
+    "arrival_order": 307,
+    "arrival_time": "2026-05-26 13:38:32.270",
+    "speed": 795.3094,
+    "pigeon": {
+      "ring_description": "SA-2025--14044",
+      "pigeon_team": {
+        "name": "Rangi's Loft",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-3327",
+    "arrival_order": 308,
+    "arrival_time": "2026-05-26 13:38:32.590",
+    "speed": 795.197,
+    "pigeon": {
+      "ring_description": "SA-2025-3327",
+      "pigeon_team": {
+        "name": "PP Toe Dippers",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5164",
+    "arrival_order": 309,
+    "arrival_time": "2026-05-26 13:38:33.390",
+    "speed": 794.9161,
+    "pigeon": {
+      "ring_description": "BSN 25 5164",
+      "pigeon_team": {
+        "name": "Busselton 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13748",
+    "arrival_order": 310,
+    "arrival_time": "2026-05-26 13:38:33.620",
+    "speed": 794.8353,
+    "pigeon": {
+      "ring_description": "VHA 25 13748",
+      "pigeon_team": {
+        "name": "Meadow One Loft",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA  25 13571",
+    "arrival_order": 311,
+    "arrival_time": "2026-05-26 13:38:34.150",
+    "speed": 794.6494,
+    "pigeon": {
+      "ring_description": "SA  25 13571",
+      "pigeon_team": {
+        "name": "Perry Burton",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5172",
+    "arrival_order": 312,
+    "arrival_time": "2026-05-26 13:38:35.100",
+    "speed": 794.3162,
+    "pigeon": {
+      "ring_description": "BSN 25 5172",
+      "pigeon_team": {
+        "name": "Busselton 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-17585",
+    "arrival_order": 313,
+    "arrival_time": "2026-05-26 13:38:36.430",
+    "speed": 793.8503,
+    "pigeon": {
+      "ring_description": "SA-2025-17585",
+      "pigeon_team": {
+        "name": "Team Rhupa",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MILD 25 1766",
+    "arrival_order": 314,
+    "arrival_time": "2026-05-26 13:38:37.010",
+    "speed": 793.6473,
+    "pigeon": {
+      "ring_description": "MILD 25 1766",
+      "pigeon_team": {
+        "name": "Kelly & Warburton",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SPF 25 1487",
+    "arrival_order": 315,
+    "arrival_time": "2026-05-26 13:38:37.290",
+    "speed": 793.5493,
+    "pigeon": {
+      "ring_description": "SPF 25 1487",
+      "pigeon_team": {
+        "name": "G & S Smith",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 16968",
+    "arrival_order": 316,
+    "arrival_time": "2026-05-26 13:38:37.390",
+    "speed": 793.5143,
+    "pigeon": {
+      "ring_description": "SA 25 16968",
+      "pigeon_team": {
+        "name": "Nel Family",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 4029",
+    "arrival_order": 317,
+    "arrival_time": "2026-05-26 13:38:38.640",
+    "speed": 793.0773,
+    "pigeon": {
+      "ring_description": "GVPF 25 4029",
+      "pigeon_team": {
+        "name": "S & A James",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "Lake Maq 25 689",
+    "arrival_order": 318,
+    "arrival_time": "2026-05-26 13:38:38.800",
+    "speed": 793.0214,
+    "pigeon": {
+      "ring_description": "Lake Maq 25 689",
+      "pigeon_team": {
+        "name": "Alley",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 853",
+    "arrival_order": 319,
+    "arrival_time": "2026-05-26 13:38:40.890",
+    "speed": 792.2919,
+    "pigeon": {
+      "ring_description": "CCF 25 853",
+      "pigeon_team": {
+        "name": "Nexgen Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MILD 25 1235",
+    "arrival_order": 320,
+    "arrival_time": "2026-05-26 13:38:42.640",
+    "speed": 791.6821,
+    "pigeon": {
+      "ring_description": "MILD 25 1235",
+      "pigeon_team": {
+        "name": "Peter Perfect",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GMPF 25 1051",
+    "arrival_order": 321,
+    "arrival_time": "2026-05-26 13:38:44.290",
+    "speed": 791.1079,
+    "pigeon": {
+      "ring_description": "GMPF 25 1051",
+      "pigeon_team": {
+        "name": "Team Rohnfried",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 160",
+    "arrival_order": 322,
+    "arrival_time": "2026-05-26 13:38:46.690",
+    "speed": 790.2744,
+    "pigeon": {
+      "ring_description": "GVPF 25 160",
+      "pigeon_team": {
+        "name": "Berrigan Boys 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "ESWD 25 629",
+    "arrival_order": 323,
+    "arrival_time": "2026-05-26 13:38:46.900",
+    "speed": 790.2015,
+    "pigeon": {
+      "ring_description": "ESWD 25 629",
+      "pigeon_team": {
+        "name": "Yang Ma & Xinbo Li 3",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 19259",
+    "arrival_order": 324,
+    "arrival_time": "2026-05-26 13:38:49.090",
+    "speed": 789.4425,
+    "pigeon": {
+      "ring_description": "SA 25 19259",
+      "pigeon_team": {
+        "name": "Mr G",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 3249",
+    "arrival_order": 325,
+    "arrival_time": "2026-05-26 13:38:49.550",
+    "speed": 789.2833,
+    "pigeon": {
+      "ring_description": "GIPPS 25 3249",
+      "pigeon_team": {
+        "name": "FQ Bro 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GIPPS 25 3286",
+    "arrival_order": 326,
+    "arrival_time": "2026-05-26 13:38:50.150",
+    "speed": 789.0757,
+    "pigeon": {
+      "ring_description": "GIPPS 25 3286",
+      "pigeon_team": {
+        "name": "FQ Bro 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VHA 25 13751",
+    "arrival_order": 327,
+    "arrival_time": "2026-05-26 13:38:51.210",
+    "speed": 788.7092,
+    "pigeon": {
+      "ring_description": "VHA 25 13751",
+      "pigeon_team": {
+        "name": "Meadow One Loft",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 1116",
+    "arrival_order": 328,
+    "arrival_time": "2026-05-26 13:38:54.980",
+    "speed": 787.4085,
+    "pigeon": {
+      "ring_description": "BH 25 1116",
+      "pigeon_team": {
+        "name": "Bush Ducks 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 2085",
+    "arrival_order": 329,
+    "arrival_time": "2026-05-26 13:38:55.120",
+    "speed": 787.3602,
+    "pigeon": {
+      "ring_description": "GVPF 25 2085",
+      "pigeon_team": {
+        "name": "Sofra 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MKY 25 1619",
+    "arrival_order": 330,
+    "arrival_time": "2026-05-26 13:38:56.580",
+    "speed": 786.8577,
+    "pigeon": {
+      "ring_description": "MKY 25 1619",
+      "pigeon_team": {
+        "name": "Whitsundays",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PP 25 841",
+    "arrival_order": 331,
+    "arrival_time": "2026-05-26 13:38:57.660",
+    "speed": 786.4864,
+    "pigeon": {
+      "ring_description": "PP 25 841",
+      "pigeon_team": {
+        "name": "Muffy & Rocco",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "WV 25 1073",
+    "arrival_order": 332,
+    "arrival_time": "2026-05-26 13:38:58.110",
+    "speed": 786.3318,
+    "pigeon": {
+      "ring_description": "WV 25 1073",
+      "pigeon_team": {
+        "name": "Pegasus Lofts",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 22234",
+    "arrival_order": 333,
+    "arrival_time": "2026-05-26 13:38:58.840",
+    "speed": 786.0811,
+    "pigeon": {
+      "ring_description": "SA 25 22234",
+      "pigeon_team": {
+        "name": "Guts & Glory",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-2983",
+    "arrival_order": 334,
+    "arrival_time": "2026-05-26 13:39:03.060",
+    "speed": 784.6351,
+    "pigeon": {
+      "ring_description": "SA-2025-2983",
+      "pigeon_team": {
+        "name": "Geoff Cawte (C)",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BALWEST 25 1756",
+    "arrival_order": 335,
+    "arrival_time": "2026-05-26 13:39:22.600",
+    "speed": 778.0083,
+    "pigeon": {
+      "ring_description": "BALWEST 25 1756",
+      "pigeon_team": {
+        "name": "A & J Syndicate",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MWF 25 45",
+    "arrival_order": 336,
+    "arrival_time": "2026-05-26 13:39:23.260",
+    "speed": 777.7864,
+    "pigeon": {
+      "ring_description": "MWF 25 45",
+      "pigeon_team": {
+        "name": "Malcolm Fowler",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5182",
+    "arrival_order": 337,
+    "arrival_time": "2026-05-26 13:39:24.440",
+    "speed": 777.39,
+    "pigeon": {
+      "ring_description": "BSN 25 5182",
+      "pigeon_team": {
+        "name": "Busselton 4",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "RR 25 921",
+    "arrival_order": 338,
+    "arrival_time": "2026-05-26 13:39:24.970",
+    "speed": 777.2121,
+    "pigeon": {
+      "ring_description": "RR 25 921",
+      "pigeon_team": {
+        "name": "Buttigieg Family",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VASSE 25 5318",
+    "arrival_order": 339,
+    "arrival_time": "2026-05-26 13:39:27.910",
+    "speed": 776.2268,
+    "pigeon": {
+      "ring_description": "VASSE 25 5318",
+      "pigeon_team": {
+        "name": "Busselton 5",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "CCF 25 2213",
+    "arrival_order": 340,
+    "arrival_time": "2026-05-26 13:39:28.900",
+    "speed": 775.8955,
+    "pigeon": {
+      "ring_description": "CCF 25 2213",
+      "pigeon_team": {
+        "name": "Cini Bros",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "PARKES 25 1371",
+    "arrival_order": 341,
+    "arrival_time": "2026-05-26 13:39:31.410",
+    "speed": 775.0569,
+    "pigeon": {
+      "ring_description": "PARKES 25 1371",
+      "pigeon_team": {
+        "name": "Terry Townsend",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--8272",
+    "arrival_order": 342,
+    "arrival_time": "2026-05-26 13:41:19.080",
+    "speed": 740.7164,
+    "pigeon": {
+      "ring_description": "SA-2025--8272",
+      "pigeon_team": {
+        "name": "W March",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025--17796",
+    "arrival_order": 343,
+    "arrival_time": "2026-05-26 13:41:27.730",
+    "speed": 738.0891,
+    "pigeon": {
+      "ring_description": "SA-2025--17796",
+      "pigeon_team": {
+        "name": "Find The Treasure",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA 25 7045",
+    "arrival_order": 344,
+    "arrival_time": "2026-05-26 13:49:14.150",
+    "speed": 619.5893,
+    "pigeon": {
+      "ring_description": "SA 25 7045",
+      "pigeon_team": {
+        "name": "Micky D",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-3321",
+    "arrival_order": 345,
+    "arrival_time": "2026-05-26 13:49:18.940",
+    "speed": 618.5695,
+    "pigeon": {
+      "ring_description": "SA-2025-3321",
+      "pigeon_team": {
+        "name": "DKR Golden Perch",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BSN 25 5168",
+    "arrival_order": 346,
+    "arrival_time": "2026-05-26 13:49:25.860",
+    "speed": 617.102,
+    "pigeon": {
+      "ring_description": "BSN 25 5168",
+      "pigeon_team": {
+        "name": "Busselton 1",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SA-2025-19265",
+    "arrival_order": 347,
+    "arrival_time": "2026-05-26 13:54:16.460",
+    "speed": 561.1917,
+    "pigeon": {
+      "ring_description": "SA-2025-19265",
+      "pigeon_team": {
+        "name": "Mr G +",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "SPF 25 1479",
+    "arrival_order": 348,
+    "arrival_time": "2026-05-26 14:41:45.180",
+    "speed": 297.2171,
+    "pigeon": {
+      "ring_description": "SPF 25 1479",
+      "pigeon_team": {
+        "name": "G & S Smith",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "MWF 25 40",
+    "arrival_order": 349,
+    "arrival_time": "2026-05-26 14:49:24.890",
+    "speed": 276.2478,
+    "pigeon": {
+      "ring_description": "MWF 25 40",
+      "pigeon_team": {
+        "name": "Malcolm Fowler",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "VRPU 25 4059",
+    "arrival_order": 350,
+    "arrival_time": "2026-05-26 14:52:14.090",
+    "speed": 269.2559,
+    "pigeon": {
+      "ring_description": "VRPU 25 4059",
+      "pigeon_team": {
+        "name": "Fineblend",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "GVPF 25 2084",
+    "arrival_order": 351,
+    "arrival_time": "2026-05-26 14:52:15.680",
+    "speed": 269.1919,
+    "pigeon": {
+      "ring_description": "GVPF 25 2084",
+      "pigeon_team": {
+        "name": "Sofra 2",
+        "country": "AU"
+      }
+    }
+  },
+  {
+    "pigeon_id": "BH 25 668",
+    "arrival_order": 352,
+    "arrival_time": "2026-05-26 14:53:17.280",
+    "speed": 266.7346,
+    "pigeon": {
+      "ring_description": "BH 25 668",
+      "pigeon_team": {
+        "name": "L & S Racing",
+        "country": "AU"
+      }
+    }
+  }
+]
